@@ -1,0 +1,616 @@
+# © COPYRIGHT 2013 - ROCK THE VOTE
+# This file is distributed under the same license as the PACKAGE package.
+# ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCKTHEVOTE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 21:01+0000\n"
+"PO-Revision-Date: 2015-11-12 17:37-0800\n"
+"Last-Translator: ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: ilo\n"
+
+#: registrant/views.py:212
+msgid "Unrecognized state, please go back and try again."
+msgstr "Iti estado nga saan nga narecognais, agsubli ka ken padasem manen. "
+
+#: registrant/views.py:236
+msgid "Unknown error: the web administrators have been contacted."
+msgstr "Kamali nga error nacontaken ti web administrator."
+
+#: templates/base.html:10
+msgid "Voter Registration"
+msgstr "Pagrerehistro ti Botante"
+
+#: templates/base.html:55
+msgid "Register in"
+msgstr "Agrehistro ti"
+
+#: templates/base.html:55 templates/error.html:4 templates/form.html:5
+#: templates/form_direct.html:5 templates/map.html:5 templates/share.html:5
+#: templates/start.html:5 templates/submit.html:5
+msgid "Register to Vote"
+msgstr "Magrehistro para Bumoto"
+
+#: templates/base.html:64
+msgid "Translate"
+msgstr "Itraducir mo"
+
+#: templates/base.html:82
+msgid "Powered by"
+msgstr "Pinaandar ti"
+
+#: templates/error.html:4
+msgid "Error Processing Your Form"
+msgstr "Kamali Sakbay iti Porma"
+
+#: templates/error.html:14 templates/ineligible.html:12
+msgid "Something went wrong"
+msgstr "Adda nagkamali"
+
+#: templates/error.html:18
+msgid "Go back and try again?"
+msgstr "Agsubli ken padasem manen"
+
+#: templates/form.html:20 templates/form.html.py:70
+#: templates/form_direct.html:74 templates/start.html:25
+msgid "Title"
+msgstr "Titulo"
+
+#: templates/form.html:23 templates/form.html.py:72
+#: templates/form_direct.html:77 templates/start.html:28
+msgid "Mr."
+msgstr "Mr."
+
+#: templates/form.html:24 templates/form.html.py:73
+#: templates/form_direct.html:78 templates/start.html:29
+msgid "Ms."
+msgstr "Ms."
+
+#: templates/form.html:25 templates/form.html.py:74
+#: templates/form_direct.html:79 templates/start.html:30
+msgid "Mrs."
+msgstr "Mrs."
+
+#: templates/form.html:27 templates/form.html.py:76
+#: templates/form_direct.html:81
+msgid "Title is required."
+msgstr "Kasapulan ti titulo."
+
+#: templates/form.html:30 templates/form.html.py:79
+#: templates/form_direct.html:84 templates/start.html:34
+msgid "First Name"
+msgstr "Umuna nga nagan"
+
+#: templates/form.html:32 templates/form.html.py:81
+#: templates/form_direct.html:86 templates/start.html:36
+msgid "Use your full first name. Do not use nicknames or initials."
+msgstr ""
+"Usarem diay umuna nga nagan. Saan mo nga usaren diay nicknames wenno initials"
+
+#: templates/form.html:35 templates/form.html.py:84
+#: templates/form_direct.html:89 templates/start.html:39
+msgid "Last Name"
+msgstr "Apilyedo"
+
+#: templates/form.html:37 templates/form.html.py:86
+msgid "This field is required."
+msgstr "Masapul daytoy nga lugar."
+
+#: templates/form.html:40 templates/form.html.py:89
+#: templates/form_direct.html:95
+msgid "Suffix"
+msgstr "Maudi nga"
+
+#: templates/form.html:50 templates/form.html.py:99
+#: templates/form_direct.html:105
+msgid "optional"
+msgstr "Saan nga kasapulan"
+
+#: templates/form.html:56 templates/form_direct.html:131
+#: templates/start.html:65
+msgid "I am a U.S. Citizen"
+msgstr "Amerikanoak (US Citizen)"
+
+#: templates/form.html:58 templates/form_direct.html:133
+msgid "You must be a U.S. citizen to register"
+msgstr "Masapul nga Amerikanoka (US citizen) tapno mabalin mo ti agrehistro"
+
+#: templates/form.html:62
+msgid "I have recently changed my name"
+msgstr "Kasuksukatco daytoy nagan ko"
+
+#: templates/form.html:67
+msgid "Previous Name"
+msgstr "Sakbay ti nagan"
+
+#: templates/form.html:108
+msgid "Street Address"
+msgstr "Nagan ti carsada nga ayan ko"
+
+#: templates/form.html:111
+msgid ""
+"Put your home address in these boxes. Do not put your mailing address here "
+"if it is different from your home address. Do not use a post office box or "
+"rural route without a box number. If you live in a rural area but do not "
+"have a street address, or if you have no address, please show where you live "
+"using the map on the printed form."
+msgstr ""
+"Isurat ti address ti balay mo cadagitoy nga kahon. Saan mo nga isurat ti "
+"address ti sur-surat mo ditoy no sabali ti address ti balay mo. Saan ka nga "
+"agusar ti post office (P.O.) Box wenno rural route nga awan ti numero da. No "
+"ti rural area ti pag-gigianam, nga awan ti address ti carsada, o awan ti "
+"address mo, ipakitam no ti pag-gigianam ditoy mapa nga adda iti porma."
+
+#: templates/form.html:115 templates/form_direct.html:115
+msgid "Not in"
+msgstr "Awan ditoy"
+
+#: templates/form.html:116 templates/form_direct.html:116
+#: templates/start.html:52
+msgid "Zip Code"
+msgstr "Zip Code"
+
+#: templates/form.html:118 templates/form.html.py:150 templates/form.html:169
+#: templates/form_direct.html:118
+msgid "Enter a valid 5 digit zip code."
+msgstr "Ikabilmo ti lima nga digit zip code"
+
+#: templates/form.html:126
+msgid "Registering Abroad?"
+msgstr "Nagrerehistro ti sabali nga lugar?"
+
+#: templates/form.html:130
+msgid "I have a different mailing address"
+msgstr "Sabali iti address ti sur-suratco"
+
+#: templates/form.html:134
+msgid "I have recently moved"
+msgstr "Kaal-alisko laeng"
+
+#: templates/form.html:141
+msgid "Mailing Street Address"
+msgstr "Address ti carsada ti sur-surat"
+
+#: templates/form.html:144
+msgid "If you receive mail at a different address, please enter it here."
+msgstr ""
+"No sabali ti address dagiti sur-surat mo, ikabil mo ditoy dayta nga address."
+
+#: templates/form.html:148
+msgid "Mailing Zip Code"
+msgstr "Zip Code to sur-surat"
+
+#: templates/form.html:160
+msgid "Previous Street Address"
+msgstr "Naudi nga address ti carsada"
+
+#: templates/form.html:163
+msgid ""
+"If you have moved since your last registration, enter your previous address."
+msgstr ""
+"No sabali ti address mo idi maudi nga rehistrasyon mo, isurat mo ti address "
+"mo idi."
+
+#: templates/form.html:167
+msgid "Previous Zip Code"
+msgstr "Naudi nga Zip Code"
+
+#: templates/form.html:180
+msgid "ID Number"
+msgstr "Número ti ID"
+
+#: templates/form.html:188 templates/form_direct.html:125
+msgid "Birthdate"
+msgstr "Petsa ti Kaaldawam"
+
+#: templates/form.html:190 templates/form_direct.html:127
+msgid "Enter your birthdate in MM/DD/YYYY format."
+msgstr "Isuratmo iti kaaldawam iti daytoy nga urnos: Bulan, Aldaw, Tawen."
+
+#: templates/form.html:195 templates/form_direct.html:142
+#: templates/map.html:110 templates/map.html.py:111 templates/start.html:48
+msgid "Email Address"
+msgstr "Address ti Email"
+
+#: templates/form.html:197 templates/form_direct.html:144
+msgid "Enter a valid email address."
+msgstr "Isurat mo ti valido nga address ti email"
+
+#: templates/form.html:200 templates/form_direct.html:147
+msgid "Phone Number"
+msgstr "Numero ti telepono"
+
+#: templates/form.html:202 templates/form_direct.html:149
+msgid "Enter a phone number in xxx-xxx-xxxx format."
+msgstr "Isurat ti numero ti telepono ti xxx-xxx-xxxx nga pormat."
+
+#: templates/form.html:205 templates/form_direct.html:152
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/form.html:207 templates/form_direct.html:154
+msgid "Mobile"
+msgstr "Mobile"
+
+#: templates/form.html:208 templates/form_direct.html:155
+msgid "Home"
+msgstr "Balay"
+
+#: templates/form.html:209 templates/form_direct.html:156
+msgid "Work"
+msgstr "Trabaho"
+
+#: templates/form.html:216
+msgid "Political Affiliation"
+msgstr "Partido"
+
+#: templates/form.html:218 templates/form.html.py:231
+msgid "Select One..."
+msgstr "Pumili ka ti maysa..."
+
+#: templates/form.html:229
+msgid "Race or Ethnic Group"
+msgstr "Pagkatao o Grupo Etniko"
+
+#: templates/form.html:232
+msgid "American Indian / Alaskan Native"
+msgstr "American Indian / Alaskan Native"
+
+#: templates/form.html:233
+msgid "Asian / Pacific Islander"
+msgstr "Asian / Pacific Islander"
+
+#: templates/form.html:234
+msgid "Black (not Hispanic)"
+msgstr "Nangisit (saan nga Hispanik)"
+
+#: templates/form.html:235
+msgid "Hispanic"
+msgstr "Hispanik"
+
+#: templates/form.html:236
+msgid "White (not Hispanic)"
+msgstr "Napudao (saan nga Hispanik)"
+
+#: templates/form.html:237
+msgid "Multi-racial"
+msgstr "Addu nga Pagkatao"
+
+#: templates/form.html:238
+msgid "Other"
+msgstr "Sabali"
+
+#: templates/form.html:239
+msgid "Decline to State"
+msgstr "Saan nga ibaga"
+
+#: templates/form.html:249 templates/form.html.py:277 templates/form.html:298
+msgid "Survey Questions (optional)"
+msgstr "Damdamagen ti survey (opsyonal)"
+
+#: templates/form.html:258 templates/form.html.py:269 templates/form.html:283
+#: templates/form.html.py:290 templates/form.html:303
+#: templates/form.html.py:308
+msgid "Optional"
+msgstr "Opsyonal"
+
+#: templates/form.html:301
+msgid "If you are in school, where do you go?"
+msgstr "No agbasbasaka, annia ti nagan ti escuelam?"
+
+#: templates/form.html:306
+msgid "What issue do you care most about?"
+msgstr "Annia nga issue o topico iti kay-kayat mo unay?"
+
+#: templates/form.html:324 templates/form.html.py:336 templates/form.html:383
+#: templates/form_direct.html:192 templates/form_direct.html.py:204
+#: templates/form_direct.html:251
+msgid "Receive Email from"
+msgstr "Umaoat ka ti email nga ag-gapu ti.."
+
+#: templates/form.html:326 templates/form.html.py:338 templates/form.html:385
+#: templates/form_direct.html:194 templates/form_direct.html.py:206
+#: templates/form_direct.html:253
+msgid "privacy policy"
+msgstr "personal nga bagay ti.."
+
+#: templates/form.html:347 templates/form_direct.html:215
+msgid "Receive Email Updates from Rock the Vote."
+msgstr "Umaoat dagiti baru nga damdamag iti email nga naggapu ti Rock the Vote"
+
+#: templates/form.html:358 templates/form_direct.html:226
+msgid "Send me txt messages from"
+msgstr "Ikannak ti Txt messages nga naggapu ti"
+
+#: templates/form.html:359 templates/form_direct.html:227
+msgid "Send me txt messages from Rock the Vote."
+msgstr "Ikannak ti Txt messages nga naggapu ti Rock the Vote"
+
+#: templates/form.html:360 templates/form_direct.html:228
+msgid "(data &amp; msg rates may apply)"
+msgstr " (data &amp; adda bayad dagiti mensahe)"
+
+#: templates/form.html:373 templates/form_direct.html:241
+msgid "I would like to volunteer with"
+msgstr "Kayat ko ti agboluntar ken"
+
+#: templates/form.html:374 templates/form_direct.html:242
+msgid "I would like to volunteer with Rock the Vote."
+msgstr "Kayat ko agboluntar iti Rock the Vote"
+
+#: templates/form.html:397
+msgid "Register"
+msgstr "Agrehistro"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Already registered?"
+msgstr "Nalpas kan nga nagrehistro?"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Share with your friends"
+msgstr "Ited mo kadagiti gagayyem mo"
+
+#: templates/form_ca_direct.html:22
+#, python-format
+msgid "I am a resident of %(state)s, living in the United States."
+msgstr "Aggigianak ti %(state)s, ditoy Estados Unidos"
+
+#: templates/form_ca_direct.html:25
+#, python-format
+msgid ""
+" You are eligible to finish your voter registration using the %(state_name)s "
+"online voter registration system. "
+msgstr ""
+"Eligible ka nga mangleppas iti voter registration no usarem ti "
+"%(state_name)s online voter registration system. "
+
+#: templates/form_ca_direct.html:39
+msgid ""
+"You can complete your voter registration online with the state right now - "
+"using the application provided by Secretary of State. "
+msgstr ""
+"Mabalin mo nga icompleto iti voter registration online itatta, no usarem ti "
+"applikasyon nga inted ni, Sekretarya ti Estado."
+
+#: templates/form_direct.html:91
+msgid "Last name is required."
+msgstr "Masapul nga ti maudi nga nagan (apilyedo)."
+
+#: templates/form_direct.html:167
+#, python-format
+msgid ""
+"I have a current %(state)s state identification card or driver's license"
+msgstr "Adda kanniac ti agdama nga %(state)s ID card ken licensya ti agmaneho."
+
+#: templates/form_direct.html:170
+#, python-format
+msgid ""
+"You may be eligible to finish your voter registration using the "
+"%(state_name)s online voter registration system."
+msgstr ""
+"Mabalin nga eligible ka nga mangileppas iti online voter registration no "
+"usarem ti  %(state_name)s "
+
+#: templates/form_direct.html:175
+#, python-format
+msgid ""
+"I do not have a current %(state)s state identification card or driver's "
+"license"
+msgstr "Awan ti agdama nga %(state)s ID card wenno driver's license.."
+
+#: templates/form_direct.html:279
+msgid "Submit my form online with the state"
+msgstr "Ited ti porma ti estado online"
+
+#: templates/form_direct.html:280
+msgid "Register with Rock the Vote"
+msgstr "Agrehistro ka ti Rock the Vote"
+
+#: templates/form_direct.html:286 templates/form_wa_direct.html:20
+msgid "You can complete your voter registration online with the state below."
+msgstr ""
+"Mabalin mo nga icompleto iti voter registration online ken ti estado ditoy "
+"baba."
+
+#: templates/form_direct.html:287
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry — you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"No invalido iti licensya ti agmaneho ken ID card mo, wenno saan nga "
+"mabirucan wenno maconpirmado DMV record mo iti estado, saan ka nga agdanag - "
+"ta mabalin mo<a href='javascript:redirectToRegularForm()'> nga ileppas "
+"rehistrasion mo iti Rock the Vote</a>. Mapan mo laeng iprenta, ipirma, ken "
+"ibuson iti impormasyo iti rehistrasyo mo."
+
+#: templates/form_direct.html:298 templates/share.html:24
+msgid "Spread the word"
+msgstr "Iwaragawag mo ti sarita"
+
+#: templates/form_direct.html:300
+msgid ""
+"Don't forget to tell your friends and family how easy it was to register. "
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"Saan mo nga liplipatan nga ibaga kadagiti gagayyem ken pamilya mo nga nalaka "
+"iti agrehistro. Adda dagitoy sumaruno nga usarem tapno ibandillo ti voter "
+"registration."
+
+#: templates/form_nv_direct.html:33
+msgid ""
+"You can complete your voter registration online with the state below. The "
+"Nevada Online Voter Application (NOVA) is provided by Nevada Secretary of "
+"State for registering Nevada citizens to vote, or to change their existing "
+"registration information. NOVA is also available <a href=\"https://nvsos.gov/"
+"sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank\">here.</a>"
+msgstr ""
+"Maleppasmo iti voter registration online iti sumaruno nga estado. Iti Nevada "
+"Online Voter Application (NOVA) inikkan ni, Sekretarya ti Estado, dagiti "
+"botante nga nagrehistro nga agbuto ditoy Nevada, wenno dagiti agsukat iti "
+"agdama nga rehistrasyon impormasyon. Mabalin met iti Nova nga maala <a href="
+"\"https://nvsos.gov/sosvoterservices/Registration/step1.aspx?r=gov\" target="
+"\"_blank\">here.</a>"
+
+#: templates/form_nv_direct.html:35 templates/form_wa_direct.html:21
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry - you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+" No invalido iti driver's license ken ID card mo, wenno saan nga mabirucan "
+"wenno maconpirmado iti DMV record mo iti estado, saan ka nga agdamag ta "
+"mabalin mo <a href='javascript:redirectToRegularForm()'> pay nga ileppas iti "
+"rehistrasyon mo ti Rock the Vote</a>. Mapan mo laen iprenta, ipirma ken "
+"ibuson iti rehistrasyon impormasyon mo"
+
+#: templates/ineligible.html:13
+msgid ""
+"Sorry, you are not eligible to register to vote for the following reason(s):"
+msgstr ""
+"Sorry, saan ka nga eligible nga agrehistro tapno agbuto gapu kadagitoy nga "
+"rason:"
+
+#: templates/map.html:5
+msgid "Select Your State"
+msgstr "Pilliem ti Estado"
+
+#: templates/map.html:52
+msgid "Select your state to get started"
+msgstr "Pilliem ti estado ti umuna"
+
+#: templates/map.html:56
+msgid "Select State"
+msgstr "Pilliem nga Estado"
+
+#: templates/map.html:116 templates/start.html:68
+msgid "Continue"
+msgstr "Ituloy"
+
+#: templates/map.html:123
+msgid ""
+"Your state's deadline to register to vote in the November election may have "
+"already passed. Check the <a href=\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/\">Election Center</a> to find out."
+msgstr ""
+"Mabalin nga nakalabasen iti kamauddianan nga aldaw nga pagrehistro ti agbuto "
+"ti eleksyon ti Noviembre<a href=\"http://www.rockthevote.com/election-center/"
+"registration-deadlines/\">Election Center</a>."
+
+#: templates/share.html:5
+msgid "Spread the Word"
+msgstr "Iwaragawag mo ti sarita"
+
+#: templates/share.html:25
+msgid "Tell your friends and family to register"
+msgstr "Ibagam cadaguiti gagayyem ken ti pamilliam nga agrehistro da"
+
+#: templates/share.html:28
+msgid ""
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"Dagitoy ti bassit nga usarem nga agiwaragawag iti sarita ti voter "
+"registration"
+
+#: templates/start.html:5
+msgid "Get Started"
+msgstr "Irugimon"
+
+#: templates/start.html:66
+msgid "Must be a citizen to register"
+msgstr "Masapul nga citizen ka tapno makarehistro"
+
+#: templates/submit.html:5
+msgid "Download Your Form"
+msgstr "I-download mo ti porma"
+
+#: templates/submit.html:46
+msgid "You're not quite done!"
+msgstr "Saan ka pay nga nalpas"
+
+#: templates/submit.html:47
+msgid "You still need to sign and mail in your form."
+msgstr "Masapul mo met laeng ti agpirma ken ibuson dayta porma."
+
+#: templates/submit.html:51
+msgid "Download"
+msgstr "Download"
+
+#: templates/submit.html:55
+msgid "We've also e-mailed you a link to retreive your form later"
+msgstr ""
+"Nag-email kami kenka iti maysa nga conneccion (link) para ma-retrieve minto "
+"ito pormam."
+
+#: templates/submit.html:60
+msgid "Check your email inbox for a link to your form"
+msgstr "Kitaem ti email box mo adda conneccion (link) tay porma"
+
+#: templates/submit.html:65
+msgid "Preparing Form"
+msgstr "Isagsagana iti porma"
+
+#: templates/submit.html:69
+msgid "This should only take a second"
+msgstr "Alaen laeng iti maysa nga segundo"
+
+#: templates/submit.html:75
+msgid "Something went wrong "
+msgstr "Adda bassit nga nagkamali"
+
+#: templates/submit.html:97
+msgid "Spread the word!"
+msgstr "Iwaragawag mo ti sarita!"
+
+#: templates/form_direct_top_inputs.html:87
+msgid "I will be 18 or older by the next election."
+msgstr "Agtawennacto ti 18 iti daytoy umay nga eleksyon."
+
+#: templates/map.html:137
+msgid ""
+"<strong>Note</strong>: Some states offer online voter registration. <a "
+"href='http://www.rockthevote.com/voter-registration/online-application-"
+"system/online.html' target='_blank'>Learn more.</a> If you are an American "
+"citizen living abroad or a uniformed military voter, <a href='http://www."
+"rockthevote.com/voting-is-easy/voting-rights/overseas-rights/overseas.html' "
+"target='_blank'>click here</a> to register to vote."
+msgstr ""
+"<b>Palagip</b>: No sica Americano nga aggigian ti ruar ti USA, o botante nga "
+"aktibo iti militar, <a href='http://www.rockthevote.com/voting-is-easy/"
+"voting-rights/overseas-rights/overseas.html' target='_blank'>i-click ditoy</"
+"a> para agrehistro nga agbuto"
+
+#~ msgid ""
+#~ "You can complete your voter registration online with the state right now "
+#~ "- using the application provided by Secretary of State Debra Bowen.  If "
+#~ "you don't know your social security number, your driver's license or "
+#~ "identification card is invalid, or the state can't find or confirm your "
+#~ "DMV record - don't worry - you can also <a href='javascript:"
+#~ "redirectToRegularForm()'> finish your registration with Rock the Vote</"
+#~ "a>.  You will just have to print, sign, and mail in the form by October "
+#~ "22nd."
+#~ msgstr ""
+#~ "Ahora, se puede completar su formulario de inscripción de votante en "
+#~ "linea con el estado - usando el formulario de la Secretaria del Estado "
+#~ "Debra Bowen. Si no sabe su numero de seguro social, su licensia de "
+#~ "manejar no es valido, o el estado no puede confirmar sus datos del DMV - "
+#~ "no se preocupe - tambien, se puede <a href='javascript:"
+#~ "redirectToRegularForm()'>completar su inscripción de votante con Rock the "
+#~ "Vote</a>.  Tiene que imprimir el formulario y firmar y enviar por correo "
+#~ "hasta del 22 de octubre."
+
+#~ msgid "Unknown error, please contact an admin"
+#~ msgstr ""
+#~ "Error desconocido, por favor póngase en contacto con un administrador"

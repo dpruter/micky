@@ -1,0 +1,585 @@
+# © COPYRIGHT 2014 - ROCK THE VOTE
+# This file is distributed under the same license as the PACKAGE package.
+# ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCKTHEVOTE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 21:01+0000\n"
+"PO-Revision-Date: 2015-11-12 17:38-0800\n"
+"Last-Translator: ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>\n"
+"Language-Team: RTV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: km\n"
+
+#: registrant/views.py:212
+msgid "Unrecognized state, please go back and try again."
+msgstr "រដ្ឋ ដែលមិនអាចសំគាល់បាន  សូមត្រឡប់ទៅវិញ ហើយសាកល្បងម្តងទៀត។ "
+
+#: registrant/views.py:236
+msgid "Unknown error: the web administrators have been contacted."
+msgstr ""
+
+#: templates/base.html:10
+msgid "Voter Registration"
+msgstr "ការចុះឈ្មោះបោះឆ្នោត"
+
+#: templates/base.html:55
+msgid "Register in"
+msgstr "ចុះឈ្មោះក្នុង"
+
+#: templates/base.html:55 templates/error.html:4 templates/form.html:5
+#: templates/form_direct.html:5 templates/map.html:5 templates/share.html:5
+#: templates/start.html:5 templates/submit.html:5
+msgid "Register to Vote"
+msgstr "ចុះឈ្មោះបោះឆ្នោត"
+
+#: templates/base.html:64
+msgid "Translate"
+msgstr ""
+
+#: templates/base.html:82
+msgid "Powered by"
+msgstr "ប្រើរបៀបដោយ"
+
+#: templates/error.html:4
+msgid "Error Processing Your Form"
+msgstr "មានការខុសក្នុងការធ្វើទម្រង់របស់អ្នក"
+
+#: templates/error.html:14 templates/ineligible.html:12
+msgid "Something went wrong"
+msgstr "អ្វីមួយខុស"
+
+#: templates/error.html:18
+msgid "Go back and try again?"
+msgstr "ត្រឡប់ទៅវិញ ហើយ សាកល្បងម្តងទៀត?"
+
+#: templates/form.html:20 templates/form.html.py:70
+#: templates/form_direct.html:74 templates/start.html:25
+msgid "Title"
+msgstr "ឋានៈ"
+
+#: templates/form.html:23 templates/form.html.py:72
+#: templates/form_direct.html:77 templates/start.html:28
+msgid "Mr."
+msgstr "លោក"
+
+#: templates/form.html:24 templates/form.html.py:73
+#: templates/form_direct.html:78 templates/start.html:29
+msgid "Ms."
+msgstr "អ្នកស្រី"
+
+#: templates/form.html:25 templates/form.html.py:74
+#: templates/form_direct.html:79 templates/start.html:30
+msgid "Mrs."
+msgstr "លោកស្រី"
+
+#: templates/form.html:27 templates/form.html.py:76
+#: templates/form_direct.html:81
+msgid "Title is required."
+msgstr "ឋានៈ បានតម្រូវអោយមាន។"
+
+#: templates/form.html:30 templates/form.html.py:79
+#: templates/form_direct.html:84 templates/start.html:34
+msgid "First Name"
+msgstr "នាមខ្លួន"
+
+#: templates/form.html:32 templates/form.html.py:81
+#: templates/form_direct.html:86 templates/start.html:36
+msgid "Use your full first name. Do not use nicknames or initials."
+msgstr "ចូរប្រើនាមខ្លួន ដែលពេញលេញរបស់អ្នក។ ចូរកុំប្រើឈ្មោះក្រៅ ឬ តួអក្សរកាត់ឡើយ។ "
+
+#: templates/form.html:35 templates/form.html.py:84
+#: templates/form_direct.html:89 templates/start.html:39
+msgid "Last Name"
+msgstr "នាមត្រកូល"
+
+#: templates/form.html:37 templates/form.html.py:86
+msgid "This field is required."
+msgstr "ទីនេះ តម្រូវអោយមាន។"
+
+#: templates/form.html:40 templates/form.html.py:89
+#: templates/form_direct.html:95
+msgid "Suffix"
+msgstr "អក្សរខាងចុង"
+
+#: templates/form.html:50 templates/form.html.py:99
+#: templates/form_direct.html:105
+msgid "optional"
+msgstr "ដាក់ក៏បាន មិនដាក់ក៏បាន"
+
+#: templates/form.html:56 templates/form_direct.html:131
+#: templates/start.html:65
+msgid "I am a U.S. Citizen"
+msgstr "ខ្ញុំមានសញ្ជាតិអាមេរិកាំង"
+
+#: templates/form.html:58 templates/form_direct.html:133
+msgid "You must be a U.S. citizen to register"
+msgstr "អ្នកត្រូវមានសញ្ជាតិអាមេរិកាំង ដើម្បី ចុះឈ្មោះ"
+
+#: templates/form.html:62
+msgid "I have recently changed my name"
+msgstr "ខ្ញុំទើបតែដូរឈ្មោះរបស់ខ្ញុំ នៅពេលថី្មៗនេះ"
+
+#: templates/form.html:67
+msgid "Previous Name"
+msgstr "ឈ្មោះ ពីមុន"
+
+#: templates/form.html:108
+msgid "Street Address"
+msgstr "អាស័យដ្ឋានផ្លូវ"
+
+#: templates/form.html:111
+msgid ""
+"Put your home address in these boxes. Do not put your mailing address here "
+"if it is different from your home address. Do not use a post office box or "
+"rural route without a box number. If you live in a rural area but do not "
+"have a street address, or if you have no address, please show where you live "
+"using the map on the printed form."
+msgstr ""
+"ចូរដាក់អាស័យដ្ឋានផ្ទះរបស់អ្នកក្នុងប្រអប់ទាំងនេះ។ ចូរកុំដាក់អាស័យដ្ឋានផ្ញើសំបុត្ររបស់អ្នក នៅទីនេះ "
+"បើប្រសិនជា វាខុសពី អាស័យដ្ឋានផ្ទះរបស់អ្នក។ ចូរកុំប្រើប្រអប់សំបុត្រប្រៃសណីយ៍ ឬ ផ្លូវនៅ ជនបទ "
+"ដោយគ្មានលេខប្រអប់មួយឡើយ។ បើអ្នករស់នៅក្នុងតំបន់ជនបទ ប៉ុន្តែ ពុំមាន អាស័យដ្ឋានផ្លូវ ឬ "
+"បើអ្នកឥតមានអាស័យដ្ឋានទេ សូមបង្ហាញទីកន្លែង ដែលអ្នករស់នៅ ដោយប្រើផែនទីនៅលើ ទម្រង់បោះពុម្ភនេះ។ "
+
+#: templates/form.html:115 templates/form_direct.html:115
+msgid "Not in"
+msgstr "មិនមែននៅក្នុង"
+
+#: templates/form.html:116 templates/form_direct.html:116
+#: templates/start.html:52
+msgid "Zip Code"
+msgstr "ហ្សីបកូត"
+
+#: templates/form.html:118 templates/form.html.py:150 templates/form.html:169
+#: templates/form_direct.html:118
+msgid "Enter a valid 5 digit zip code."
+msgstr "ចូរបញ្ចូលលេខហ្សីបកូត៥ខ្ទង់ ដែលមានសុពលភាព។"
+
+#: templates/form.html:126
+msgid "Registering Abroad?"
+msgstr "ការចុះឈ្មោះនៅប្រទេសក្រៅ?"
+
+#: templates/form.html:130
+msgid "I have a different mailing address"
+msgstr "ខ្ញុំមានអាស័យដ្ឋានផ្ញើសំបុត្រមួយផ្សេង"
+
+#: templates/form.html:134
+msgid "I have recently moved"
+msgstr "ខ្ញុំទើបតែដូរលំនៅដ្ឋាន ក្នុងពេលថី្មៗនេះ"
+
+#: templates/form.html:141
+msgid "Mailing Street Address"
+msgstr "អាស័យដ្ឋានផ្លូវផ្ញើសំបុត្រ"
+
+#: templates/form.html:144
+msgid "If you receive mail at a different address, please enter it here."
+msgstr "ប្រសិនបើអ្នកទទួលសំបុត្រនៅអាស័យដ្ឋានមួយផ្សេងទៀត សូមបញ្ចូលវានៅទីនេះ។ "
+
+#: templates/form.html:148
+msgid "Mailing Zip Code"
+msgstr "ហ្សីបកូតផ្ញើសំបុត្រ"
+
+#: templates/form.html:160
+msgid "Previous Street Address"
+msgstr "អាស័យដ្ឋានផ្លូវពីមុន"
+
+#: templates/form.html:163
+msgid ""
+"If you have moved since your last registration, enter your previous address."
+msgstr ""
+"បើអ្នកបានដូរលំនៅដ្ឋាន តាំងតែពី ការចុះឈ្មោះលើកមុនរបស់អ្នក ចូរបញ្ចូលអាស័យដ្ឋានពីមុនរបស់អ្នក។ "
+
+#: templates/form.html:167
+msgid "Previous Zip Code"
+msgstr "ហ្សីបកូតពីមុន"
+
+#: templates/form.html:180
+msgid "ID Number"
+msgstr "លេខសំគាល់"
+
+#: templates/form.html:188 templates/form_direct.html:125
+msgid "Birthdate"
+msgstr "ថ្ងៃកំណើត"
+
+#: templates/form.html:190 templates/form_direct.html:127
+msgid "Enter your birthdate in MM/DD/YYYY format."
+msgstr "ចូរបញ្ចូលថ្ងៃកំណើតរបស់អ្នក ជាទម្រង់ ខែ/ថ្ងៃ​/ឆ្នាំ"
+
+#: templates/form.html:195 templates/form_direct.html:142
+#: templates/map.html:110 templates/map.html.py:111 templates/start.html:48
+msgid "Email Address"
+msgstr "អាស័យដ្ឋានអ៊ីម៉ែល"
+
+#: templates/form.html:197 templates/form_direct.html:144
+msgid "Enter a valid email address."
+msgstr "ចូរបញ្ចូលអាស័យដ្ឋានអ៊ីម៉ែល មានសុពលភាព។"
+
+#: templates/form.html:200 templates/form_direct.html:147
+msgid "Phone Number"
+msgstr "លេខទូរស័ព្ទ"
+
+#: templates/form.html:202 templates/form_direct.html:149
+msgid "Enter a phone number in xxx-xxx-xxxx format."
+msgstr "ចូរបញ្ចូលលេខទូរស័ព្ទ ជាទម្រង់ xxx-xxx-xxxx។"
+
+#: templates/form.html:205 templates/form_direct.html:152
+msgid "Type"
+msgstr "ប្រភេទ"
+
+#: templates/form.html:207 templates/form_direct.html:154
+msgid "Mobile"
+msgstr "ចល័ត"
+
+#: templates/form.html:208 templates/form_direct.html:155
+msgid "Home"
+msgstr "ផ្ទះ"
+
+#: templates/form.html:209 templates/form_direct.html:156
+msgid "Work"
+msgstr "ការងារ"
+
+#: templates/form.html:216
+msgid "Political Affiliation"
+msgstr "ទំនាក់ទំនងនយោបាយ"
+
+#: templates/form.html:218 templates/form.html.py:231
+msgid "Select One..."
+msgstr "រើសមួយ..."
+
+#: templates/form.html:229
+msgid "Race or Ethnic Group"
+msgstr "ពូជសាសន៍ ឬ ក្រុមជាតិពន្ទុ"
+
+#: templates/form.html:232
+msgid "American Indian / Alaskan Native"
+msgstr "ជនជាតិដើមអាមេរិកាំង / ជនជាតិដើមអាឡាស្កា"
+
+#: templates/form.html:233
+msgid "Asian / Pacific Islander"
+msgstr "ជនជាតិអាស៊ី/ អ្នកកោះប៉ាស៊ីហ្វិក"
+
+#: templates/form.html:234
+msgid "Black (not Hispanic)"
+msgstr "ជនជាតិស្បែកខ្មៅ (មិនមែនជនជាតិ ហិស្បែនិក ទេ)"
+
+#: templates/form.html:235
+msgid "Hispanic"
+msgstr "ជនជាតិហិស្បែនិក"
+
+#: templates/form.html:236
+msgid "White (not Hispanic)"
+msgstr "ជនជាតិស្បែកស (មិនមែនជនជាតិ ហិស្បែនិក ទេ)"
+
+#: templates/form.html:237
+msgid "Multi-racial"
+msgstr "ច្រើន-ពូជសាសន៍"
+
+#: templates/form.html:238
+msgid "Other"
+msgstr "ដទៃទៀត"
+
+#: templates/form.html:239
+msgid "Decline to State"
+msgstr "មិនព្រមថ្លែងប្រាប់"
+
+#: templates/form.html:249 templates/form.html.py:277 templates/form.html:298
+msgid "Survey Questions (optional)"
+msgstr "សំណួរស្រង់មតិ (ធ្វើក៏បាន មិនធ្វើក៏បាន)"
+
+#: templates/form.html:258 templates/form.html.py:269 templates/form.html:283
+#: templates/form.html.py:290 templates/form.html:303
+#: templates/form.html.py:308
+msgid "Optional"
+msgstr "ធ្វើក៏បានមិនធ្វើក៏បាន"
+
+#: templates/form.html:301
+msgid "If you are in school, where do you go?"
+msgstr "ប្រសិនបើអ្នកទៅរៀននៅសាលា តើអ្នកទៅសាលាណា?"
+
+#: templates/form.html:306
+msgid "What issue do you care most about?"
+msgstr "តើអ្នកខ្វល់ខ្វាយ ពីបញ្ហាអ្វីខ្លាំងជាងគេ?"
+
+#: templates/form.html:324 templates/form.html.py:336 templates/form.html:383
+#: templates/form_direct.html:192 templates/form_direct.html.py:204
+#: templates/form_direct.html:251
+msgid "Receive Email from"
+msgstr "ទទួលព័ត៌មានថី្មៗអំពី អ៊ីម៉ែល ពី "
+
+#: templates/form.html:326 templates/form.html.py:338 templates/form.html:385
+#: templates/form_direct.html:194 templates/form_direct.html.py:206
+#: templates/form_direct.html:253
+msgid "privacy policy"
+msgstr "ច្បាប់ស្តីពីសិទ្ធិឯកជន"
+
+#: templates/form.html:347 templates/form_direct.html:215
+msgid "Receive Email Updates from Rock the Vote."
+msgstr "ទទួលព័ត៌មានថី្មៗអំពី អ៊ីម៉ែល ពី អង្គការ Rock the Vote។"
+
+#: templates/form.html:358 templates/form_direct.html:226
+msgid "Send me txt messages from"
+msgstr "ផ្ញើអោយខ្ញុំនូវ សារអត្ថបទ ពី"
+
+#: templates/form.html:359 templates/form_direct.html:227
+msgid "Send me txt messages from Rock the Vote."
+msgstr "ផ្ញើអោយខ្ញុំនូវសារអត្ថបទ ពី អង្គការ Rock the Vote។ "
+
+#: templates/form.html:360 templates/form_direct.html:228
+msgid "(data &amp; msg rates may apply)"
+msgstr "(ទិន្នន័យ&amp; តម្លៃ msg អាចជាប់ពាក់ព័ន្ធ)"
+
+#: templates/form.html:373 templates/form_direct.html:241
+msgid "I would like to volunteer with"
+msgstr "ខ្ញុំចង់ស្ម័គ្រចិត្តបំរើ ជាមួយ"
+
+#: templates/form.html:374 templates/form_direct.html:242
+msgid "I would like to volunteer with Rock the Vote."
+msgstr "ខ្ញុំចង់ស័្មគ្រចិត្តបំរើជាមួយ អង្គការ Rock the Vote។ "
+
+#: templates/form.html:397
+msgid "Register"
+msgstr "ចុះឈ្មោះ"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Already registered?"
+msgstr "ចុះឈ្មោះរួចហើយឬ?"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Share with your friends"
+msgstr "ចែករំលែកជាមួយមិត្តភក្តិរបស់អ្នក"
+
+#: templates/form_ca_direct.html:22
+#, python-format
+msgid "I am a resident of %(state)s, living in the United States."
+msgstr "ខ្ញុំជាជនរស់នៅរដ្ឋ %(state)s, ក្នុងសហរដ្ឋ។ "
+
+#: templates/form_ca_direct.html:25
+#, python-format
+msgid ""
+" You are eligible to finish your voter registration using the %(state_name)s "
+"online voter registration system. "
+msgstr ""
+"អ្នកមានសិទ្ធិបញ្ចប់ការចុះឈ្មោះបោះឆ្នោតរបស់អ្នក ដោយការប្រើ ប្រព័ន្ធចុះឈ្មោះបោះឆ្នោត តាមរយៈ "
+"អនឡាញ %(state_name)s។ "
+
+#: templates/form_ca_direct.html:39
+msgid ""
+"You can complete your voter registration online with the state right now - "
+"using the application provided by Secretary of State. "
+msgstr ""
+"អ្នកអាចបំពេញការចុះឈ្មោះបោះឆ្នោតរបស់អ្នក តាមរយៈ អនឡាញ ជាមួយនឹង រដ្ឋនោះ ឥឡូវនេះ - "
+"ដោយការប្រើពាក្យសុំ ផ្តល់អោយដោយ រដ្ឋលេខាធិការ លោកស្រី ។ "
+
+#: templates/form_direct.html:91
+msgid "Last name is required."
+msgstr "នាមត្រកូល តម្រូវអោយមាន។"
+
+#: templates/form_direct.html:167
+#, python-format
+msgid ""
+"I have a current %(state)s state identification card or driver's license"
+msgstr "ខ្ញុំមានអត្តសញ្ញាណប័ណ្ណរដ្ឋ %(state)s ឬ អាជ្ញាប័ណ្ណបើកបរ បច្ចុប្បន្ន"
+
+#: templates/form_direct.html:170
+#, python-format
+msgid ""
+"You may be eligible to finish your voter registration using the "
+"%(state_name)s online voter registration system."
+msgstr ""
+"អ្នកទំនងជាអាចមានលទ្ធភាពបញ្ចប់ការចុះឈ្មោះរបស់អ្នក ដោយការប្រើ %(state_name)s តាមរយៈ "
+"ប្រព័ន្ធបោះឆ្នោត អនឡាញ។ "
+
+#: templates/form_direct.html:175
+#, python-format
+msgid ""
+"I do not have a current %(state)s state identification card or driver's "
+"license"
+msgstr "ខ្ញុំគ្មានអត្តសញ្ញាណប័ណ្ណ រដ្ឋ  %(state)s  ឬ អាជ្ញាប័ណ្ណបើកបរ បច្ចុប្បន្ន ទេ "
+
+#: templates/form_direct.html:279
+msgid "Submit my form online with the state"
+msgstr "ផ្ញើទម្រង់របស់ខ្ញុំ តាម អនឡាញ ជាមួយនឹង រដ្ឋនោះ"
+
+#: templates/form_direct.html:280
+msgid "Register with Rock the Vote"
+msgstr "ចុះឈ្មោះជាមួយ  Rock the Vote"
+
+#: templates/form_direct.html:286 templates/form_wa_direct.html:20
+msgid "You can complete your voter registration online with the state below."
+msgstr "អ្នកអាចបំពេញការចុះឈ្មោះបោះឆ្នោតរបស់អ្នក តាមរយៈ អនឡាញ ជាមួយ រដ្ឋ ខាងក្រោម។ "
+
+#: templates/form_direct.html:287
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry — you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"បើប្រសិនជា អាជ្ញាប័ណ្ណបើកបរ ឬ អត្តសញ្ញាណប័ណ្ណរដ្ឋ របស់អ្នក អស់សុពលភាព ឬ រដ្ឋនោះមិនអាចរក ឬ "
+"បញ្ជាក់កំណត់ហេតុ DMV របស់អ្នកបានទេ - ចូរកុំព្រួយ --- អ្នកអាចបញ្ចប់ <a href='javascript:"
+"redirectToRegularForm()'> ការចុះឈ្មោះរបស់អ្នក ជាមួយ អង្គការ  Rock the Vote ផងដែរ </"
+"a> ។ អ្នកនឹងគ្រាន់តែ បោះពុម្ភ ចុះហត្ថលេខា ហើយ ផ្ញើវាមកប៉ុណ្ណោះបានហើយ។ "
+
+#: templates/form_direct.html:298 templates/share.html:24
+msgid "Spread the word"
+msgstr "ជួយផ្សព្វផ្សាយ"
+
+#: templates/form_direct.html:300
+msgid ""
+"Don't forget to tell your friends and family how easy it was to register. "
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"កុំភ្លេចប្រាប់មិត្តភក្តិ និង ក្រុមគ្រួសាររបស់អ្នក ថាការចុះឈ្មោះបោះឆ្នោតមានភាពងាយស្រួលទេ។ "
+"តទៅនេះគឺជាឧបករណ៍ខ្លះៗ ដែលអ្នកអាចប្រើ ដើម្បី ផ្សព្វផ្សាយ អំពី ការចុះឈ្មោះបោះឆ្នោត៖ "
+
+#: templates/form_nv_direct.html:33
+msgid ""
+"You can complete your voter registration online with the state below. The "
+"Nevada Online Voter Application (NOVA) is provided by Nevada Secretary of "
+"State for registering Nevada citizens to vote, or to change their existing "
+"registration information. NOVA is also available <a href=\"https://nvsos.gov/"
+"sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank\">here.</a>"
+msgstr ""
+"អ្នកអាចបំពេញការចុះឈ្មោះបោះឆ្នោតរបស់អ្នក តាមរយៈ អនឡាញ ជាមួយរដ្ឋខាងក្រោម។ "
+"ការដាក់ពាក្យសុំបោះឆ្នោត តាមរយៈ អនឡាញ រដ្ឋ នេវ៉ាដា (NOVA) ឧបត្ថម្ភឡើងដោយ រដ្ឋលេខាធិការ "
+"រដ្ឋ នេវ៉ាដា លោក សម្រាប់ ចុះឈ្មោះពលរដ្ឋ នៃរដ្ឋនេវ៉ាដា ដើម្បីបោះឆ្នោត ឬក៏ ដើម្បីដូរ "
+"ព័ត៌មាននៃការចុះឈ្មោះ ដែលមានស្រាប់របស់គេ។ NOVA អាចរកបានផងដែរនៅ <a href=\"https://"
+"nvsos.gov/sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank"
+"\"> ទីនេះ។ </a>"
+
+#: templates/form_nv_direct.html:35 templates/form_wa_direct.html:21
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry - you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"បើអាជ្ញាប័ណ្ណបើកបរ ឬ អត្តសញ្ញាណប័ណ្ណរដ្ឋរបស់អ្នកគ្មានសុពលភាព ឬមួយ រដ្ឋនោះមិនអាចរក ឬ បញ្ជាក់ពី "
+"កំណត់ហេតុDMV របស់អ្នកបានទេ - ចូរកុំព្រួយ - អ្នកអាចបញ្ចប់<a href='javascript:"
+"redirectToRegularForm()'> ការចុះឈ្មោះជាមួយ Rock the Vote ផងដែរ</a>។ "
+"អ្នកនឹងគ្រាន់តែបោះពុម្ភ ចុះហត្ថលេខា ហើយ ផ្ញើវាមក។ "
+
+#: templates/ineligible.html:13
+msgid ""
+"Sorry, you are not eligible to register to vote for the following reason(s):"
+msgstr "សូមទោស អ្នកពុំមានសិទ្ធិអាចចុះឈ្មោះបោះឆ្នោតបានទេ ដោយសារ មូលហេតុ ដូចតទៅ៖"
+
+#: templates/map.html:5
+msgid "Select Your State"
+msgstr "ជ្រើសរើសរដ្ឋរបស់អ្នក"
+
+#: templates/map.html:52
+msgid "Select your state to get started"
+msgstr "ចូរជ្រើសរើសរដ្ឋរបស់អ្នក ដើម្បីចាប់ផ្តើម"
+
+#: templates/map.html:56
+msgid "Select State"
+msgstr "ជ្រើសរើសរដ្ឋ"
+
+#: templates/map.html:116 templates/start.html:68
+msgid "Continue"
+msgstr "បន្ត"
+
+#: templates/map.html:123
+msgid ""
+"Your state's deadline to register to vote in the November election may have "
+"already passed. Check the <a href=\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/\">Election Center</a> to find out."
+msgstr ""
+"ការផុតកំណត់ដើម្បីចុះឈ្មោះបោះឆ្នោតនៃរដ្ឋរបស់អ្នក ក្នុងការបោះឆ្នោតខែវិច្ឆិកា ឆ្នាំ ២០១២ "
+"ប្រហែលជាកន្លងផុតទៅហើយ។ ចូរឆែកមើល<a href=\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/\"> មជ្ឈមណ្ឌលបោះឆ្នោត</a> ដើម្បីបានជ្រាប។ "
+
+#: templates/share.html:5
+msgid "Spread the Word"
+msgstr "ជួយផ្សព្វផ្សាយ"
+
+#: templates/share.html:25
+msgid "Tell your friends and family to register"
+msgstr "ចូរប្រាប់មិត្តភក្តិ និង គ្រួសាររបស់អ្នក ដើម្បីចុះឈ្មោះ"
+
+#: templates/share.html:28
+msgid ""
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr "តទៅនេះ គឺជា ឧបករណ៌ខ្លះៗដែលអ្នកអាចប្រើ ដើម្បី ផ្សព្វផ្សាយ អំពី ការចុះឈ្មោះបោះឆ្នោត៖"
+
+#: templates/start.html:5
+msgid "Get Started"
+msgstr "ចូរចាប់ផ្តើម"
+
+#: templates/start.html:66
+msgid "Must be a citizen to register"
+msgstr "ត្រូវមានសញ្ជាតិ ដើម្បីចុះឈ្មោះ"
+
+#: templates/submit.html:5
+msgid "Download Your Form"
+msgstr "ចូរ ដោនឡូត ទម្រង់របស់អ្នក"
+
+#: templates/submit.html:46
+msgid "You're not quite done!"
+msgstr "អ្នកធើ្វមិនទាន់ចប់សព្វគ្រប់នៅឡើយទេ!"
+
+#: templates/submit.html:47
+msgid "You still need to sign and mail in your form."
+msgstr "អ្នកនៅតែចាំបាច់ត្រូវ ចុះហត្ថលេខា និង ផ្ញើទម្រង់របស់អ្នក។"
+
+#: templates/submit.html:51
+msgid "Download"
+msgstr "ដោនឡូត"
+
+#: templates/submit.html:55
+msgid "We've also e-mailed you a link to retreive your form later"
+msgstr "យើងបានអ៊ីម៉ែលទៅអ្នកនូវ កន្លែងតភ្ជាប់មួយ ដើម្បី ទាញយកទម្រង់របស់អ្នក នៅពេលក្រោយ"
+
+#: templates/submit.html:60
+msgid "Check your email inbox for a link to your form"
+msgstr "ចូរពិនិត្យមើល ក្នុងប្រអប់ អ៊ីម៉ែល សម្រាប់ ការបន្តភ្ជាប់ ទៅ ទម្រង់របស់អ្នក"
+
+#: templates/submit.html:65
+msgid "Preparing Form"
+msgstr "ទម្រង់ត្រៀមទុក"
+
+#: templates/submit.html:69
+msgid "This should only take a second"
+msgstr "នេះគប្បីប្រើពេលតែមួយភ្លែតតែប៉ុណ្ណោះ"
+
+#: templates/submit.html:75
+msgid "Something went wrong "
+msgstr "អ្វីមួយខុស"
+
+#: templates/submit.html:97
+msgid "Spread the word!"
+msgstr "សូមជួយផ្សព្វផ្សាយ!"
+
+#: templates/share.html:31
+msgid "Post to Your Wall"
+msgstr "បិទប្រកាសផ្សាយ"
+
+#: templates/share.html:33
+msgid "Tweet This"
+msgstr "ផ្ញើផ្សាយតាមអ៊ិនធ័រណែត!"
+
+#: templates/form_direct_top_inputs.html:87
+msgid "I will be 18 or older by the next election."
+msgstr "ខ្ញុំនឹងមានអាយញ ១៨ ឆ្នុំ បៅថ្ងៃប ោះបឆ្នត្បរោយ។"
+
+#: templates/map.html:137
+msgid ""
+"<strong>Note</strong>: Some states offer online voter registration. <a "
+"href='http://www.rockthevote.com/voter-registration/online-application-"
+"system/online.html' target='_blank'>Learn more.</a> If you are an American "
+"citizen living abroad or a uniformed military voter, <a href='http://www."
+"rockthevote.com/voting-is-easy/voting-rights/overseas-rights/overseas.html' "
+"target='_blank'>click here</a> to register to vote."
+msgstr ""
+"<b>សំគាល់</b>:ប្រសិនបើអ្នកមានសញ្ជាតិអាមេរិកាំងរស់នៅបរទេស ឬ ជាទាហានមានសិទ្ធិ៍បោះឆ្នោត<a "
+"href='http://www.rockthevote.com/voting-is-easy/voting-rights/overseas-"
+"rights/overseas.html' target='_blank'>ចូរចុចនៅត្រង់នេះ</a>ដើម្បីនឹងចុះឈ្មោះបោះឆ្នោត។"

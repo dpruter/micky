@@ -1,0 +1,33 @@
+body {
+    background: #fff;
+    color: #333;
+}
+#header {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #072149;
+  text-shadow: 0 -1px 1px black;
+  border-bottom: 1px solid #676766;
+  background-color: #C9D6E2;
+  background-image: none;
+  text-shadow: none;
+}
+input[type="text"], input[type="search"], input[type="email"], input[type="number"], input[type="password"], input[type="date"], input[type="tel"], textarea {
+    -moz-box-sizing: border-box;
+    border: 1px solid #84A5C4;
+    border-radius: 4px;
+    color: #000000;
+    height: 31px;
+    margin: 0;
+    padding: 6px 8px;
+    width: 100%;
+}
+
+.fake-select-wrap > .fake-select {
+    border: 1px solid #84A5C4;
+}
+
+#share-link {
+    margin-top: 20px;
+}

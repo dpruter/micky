@@ -1,0 +1,12 @@
+p.italic {
+font-style:normal;
+}
+#footer p {
+font-style: normal;
+}
+.input > label {
+    font-size: 14px;
+}
+.fake-select-wrap > .fake-select {
+    font: 11px/14px "Lucida Grande","Lucida Sans Unicode",sans-serif;
+}

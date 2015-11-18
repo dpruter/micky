@@ -1,0 +1,597 @@
+# © COPYRIGHT 2014 - ROCK THE VOTE
+# This file is distributed under the same license as the PACKAGE package.
+# ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCKTHEVOTE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 21:01+0000\n"
+"PO-Revision-Date: 2015-11-12 17:39-0800\n"
+"Last-Translator: ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>\n"
+"Language-Team: RTV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: ur\n"
+
+#: registrant/views.py:212
+msgid "Unrecognized state, please go back and try again."
+msgstr "نامنظور شدہ ریاست - دوبارہ کوشش کریں"
+
+#: registrant/views.py:236
+msgid "Unknown error: the web administrators have been contacted."
+msgstr "انجانی غلطی - ویب ایڈمنسٹریٹر سے رابطہ کیا گیا ہے"
+
+#: templates/base.html:10
+msgid "Voter Registration"
+msgstr "ووٹر کی رجسٹریشن"
+
+#: templates/base.html:55
+msgid "Register in"
+msgstr "رجسٹر ہوں"
+
+#: templates/base.html:55 templates/error.html:4 templates/form.html:5
+#: templates/form_direct.html:5 templates/map.html:5 templates/share.html:5
+#: templates/start.html:5 templates/submit.html:5
+msgid "Register to Vote"
+msgstr "ووٹ ڈالنے کے لیے رجسٹریشن"
+
+#: templates/base.html:64
+msgid "Translate"
+msgstr "ترجمہ کریں"
+
+#: templates/base.html:82
+msgid "Powered by"
+msgstr "تیار کردہ"
+
+#: templates/error.html:4
+msgid "Error Processing Your Form"
+msgstr "فارم تیار کرتے وقت غلطی ہو گئی ہے"
+
+#: templates/error.html:14 templates/ineligible.html:12
+msgid "Something went wrong"
+msgstr "کچھ گڑبڑ ہو گئی ہے"
+
+#: templates/error.html:18
+msgid "Go back and try again?"
+msgstr "نئے سرے سے کوشش کریں"
+
+#: templates/form.html:20 templates/form.html.py:70
+#: templates/form_direct.html:74 templates/start.html:25
+msgid "Title"
+msgstr "عنوان"
+
+#: templates/form.html:23 templates/form.html.py:72
+#: templates/form_direct.html:77 templates/start.html:28
+msgid "Mr."
+msgstr "جناب"
+
+#: templates/form.html:24 templates/form.html.py:73
+#: templates/form_direct.html:78 templates/start.html:29
+msgid "Ms."
+msgstr "محترمہ"
+
+#: templates/form.html:25 templates/form.html.py:74
+#: templates/form_direct.html:79 templates/start.html:30
+msgid "Mrs."
+msgstr "بیگم"
+
+#: templates/form.html:27 templates/form.html.py:76
+#: templates/form_direct.html:81
+msgid "Title is required."
+msgstr "عنوان کی ضرورت ہے"
+
+#: templates/form.html:30 templates/form.html.py:79
+#: templates/form_direct.html:84 templates/start.html:34
+msgid "First Name"
+msgstr "نام کا پہلا حصہ"
+
+#: templates/form.html:32 templates/form.html.py:81
+#: templates/form_direct.html:86 templates/start.html:36
+msgid "Use your full first name. Do not use nicknames or initials."
+msgstr "اپنا پہلا نام پورا لکھیں- عرف یا مخفف نہ لکھیں"
+
+#: templates/form.html:35 templates/form.html.py:84
+#: templates/form_direct.html:89 templates/start.html:39
+msgid "Last Name"
+msgstr "نام کا آخری حصہ"
+
+#: templates/form.html:37 templates/form.html.py:86
+msgid "This field is required."
+msgstr "جواب کی ضرورت ہے"
+
+#: templates/form.html:40 templates/form.html.py:89
+#: templates/form_direct.html:95
+msgid "Suffix"
+msgstr "لاحقہ یعنی نام کے آگے اضافی نام"
+
+#: templates/form.html:50 templates/form.html.py:99
+#: templates/form_direct.html:105
+msgid "optional"
+msgstr "اختیاری"
+
+#: templates/form.html:56 templates/form_direct.html:131
+#: templates/start.html:65
+msgid "I am a U.S. Citizen"
+msgstr "میں امریکی شہری ہوں"
+
+#: templates/form.html:58 templates/form_direct.html:133
+msgid "You must be a U.S. citizen to register"
+msgstr "رجسٹریشن کے لیے آپ کا امریکی شہری ہونا ضروری ہے"
+
+#: templates/form.html:62
+msgid "I have recently changed my name"
+msgstr "میں نے حال ہی میں اپنا نام تبدیل کر لیا ہے"
+
+#: templates/form.html:67
+msgid "Previous Name"
+msgstr "پرانا نام"
+
+#: templates/form.html:108
+msgid "Street Address"
+msgstr "گلی کا پتہ"
+
+#: templates/form.html:111
+msgid ""
+"Put your home address in these boxes. Do not put your mailing address here "
+"if it is different from your home address. Do not use a post office box or "
+"rural route without a box number. If you live in a rural area but do not "
+"have a street address, or if you have no address, please show where you live "
+"using the map on the printed form."
+msgstr ""
+"ان خانوں میں اپنے گھر کا پتہ درج کریں۔ اگر آپ کا ڈاک کا پتہ اس پتہ سے مختلف "
+"ہو تو وہ یہاں نہ لکھیں۔ پوسٹ بکس نمبر یا بکس نمبر کے بغیر دیہاتی روٹ ہرگز نہ "
+"لکھیں۔ اگر آپ کسی دیہی علاقے میں رہائش پذیر ہیں جہاں گلی کا پتہ یا کوئی بھی "
+"پتہ نہیں ہے تو براہ مہربانی نقشہ کی مدد سے چھپے ہوئے فارم پر نشان دہی کریں۔"
+
+#: templates/form.html:115 templates/form_direct.html:115
+msgid "Not in"
+msgstr "اندر نہیں ہے"
+
+#: templates/form.html:116 templates/form_direct.html:116
+#: templates/start.html:52
+msgid "Zip Code"
+msgstr "زپ کوڈ"
+
+#: templates/form.html:118 templates/form.html.py:150 templates/form.html:169
+#: templates/form_direct.html:118
+msgid "Enter a valid 5 digit zip code."
+msgstr "پانچ ہندسوں پر مشتمل درست زپ کوڈلکھیں"
+
+#: templates/form.html:126
+msgid "Registering Abroad?"
+msgstr "دوسرے ملک سے رجسٹر ہو رہے ہیں"
+
+#: templates/form.html:130
+msgid "I have a different mailing address"
+msgstr "میرا ڈاک کا پتہ مختلف ہے"
+
+#: templates/form.html:134
+msgid "I have recently moved"
+msgstr "میں نے حال ہی میں رہائش تبدیل کی ہے"
+
+#: templates/form.html:141
+msgid "Mailing Street Address"
+msgstr "گلی کا ڈاک کا پتہ"
+
+#: templates/form.html:144
+msgid "If you receive mail at a different address, please enter it here."
+msgstr "اگر آپ کی ڈاک کسی دوسرے پتہ پر وصول ہوتی ہے تو وہ یہاں لکھیں"
+
+#: templates/form.html:148
+msgid "Mailing Zip Code"
+msgstr "زپ کوڈ برائے ڈاک"
+
+#: templates/form.html:160
+msgid "Previous Street Address"
+msgstr "سابقہ گلی کا پتہ"
+
+#: templates/form.html:163
+msgid ""
+"If you have moved since your last registration, enter your previous address."
+msgstr ""
+"If you have moved since your last registration, enter your previous address."
+"اگر اس سے قبل ہونے والی رجسٹریشن کے بعد آپ نے رہائی تبدیل کی ہے تو سابقہ پتہ "
+"لکھیں"
+
+#: templates/form.html:167
+msgid "Previous Zip Code"
+msgstr "پرانا زپ کوڈ"
+
+#: templates/form.html:180
+msgid "ID Number"
+msgstr "شناختی نمبر"
+
+#: templates/form.html:188 templates/form_direct.html:125
+msgid "Birthdate"
+msgstr "تاریخ پیدائش"
+
+#: templates/form.html:190 templates/form_direct.html:127
+msgid "Enter your birthdate in MM/DD/YYYY format."
+msgstr "اپنی تاریخ پیدائش اس طرح درج کریں: ماہ - دن - سال"
+
+#: templates/form.html:195 templates/form_direct.html:142
+#: templates/map.html:110 templates/map.html.py:111 templates/start.html:48
+msgid "Email Address"
+msgstr "ای میل کا پتہ"
+
+#: templates/form.html:197 templates/form_direct.html:144
+msgid "Enter a valid email address."
+msgstr "ای میل کا درست پتہ لکھیں"
+
+#: templates/form.html:200 templates/form_direct.html:147
+msgid "Phone Number"
+msgstr "فون نمبر"
+
+#: templates/form.html:202 templates/form_direct.html:149
+msgid "Enter a phone number in xxx-xxx-xxxx format."
+msgstr "فون نمبر اس ترتیب سے لکھیں xxx-xxx-xxxx"
+
+#: templates/form.html:205 templates/form_direct.html:152
+msgid "Type"
+msgstr "قسم"
+
+#: templates/form.html:207 templates/form_direct.html:154
+msgid "Mobile"
+msgstr "موبائل"
+
+#: templates/form.html:208 templates/form_direct.html:155
+msgid "Home"
+msgstr "گھر کا فون"
+
+#: templates/form.html:209 templates/form_direct.html:156
+msgid "Work"
+msgstr "کام کی جگہ کا فون"
+
+#: templates/form.html:216
+msgid "Political Affiliation"
+msgstr "سیاسی وابستگی"
+
+#: templates/form.html:218 templates/form.html.py:231
+msgid "Select One..."
+msgstr "ایک کا انتخاب کریں"
+
+#: templates/form.html:229
+msgid "Race or Ethnic Group"
+msgstr "ذات یا قبیلہ"
+
+#: templates/form.html:232
+msgid "American Indian / Alaskan Native"
+msgstr "امریکی انڈین یا الاسکا کے رہنے والے"
+
+#: templates/form.html:233
+msgid "Asian / Pacific Islander"
+msgstr "ایشیائی یا جزائر بحرالکاہل کے رہنے والے"
+
+#: templates/form.html:234
+msgid "Black (not Hispanic)"
+msgstr "سیاہ فام لیکن غیرہسپانوی"
+
+#: templates/form.html:235
+msgid "Hispanic"
+msgstr "ہسپانوی"
+
+#: templates/form.html:236
+msgid "White (not Hispanic)"
+msgstr "سفید فام لیکن غیر ہسپانوی"
+
+#: templates/form.html:237
+msgid "Multi-racial"
+msgstr "مخلوط النسل"
+
+#: templates/form.html:238
+msgid "Other"
+msgstr "دیگر"
+
+#: templates/form.html:239
+msgid "Decline to State"
+msgstr "ریاست کے انکاری"
+
+#: templates/form.html:249 templates/form.html.py:277 templates/form.html:298
+msgid "Survey Questions (optional)"
+msgstr "سروے کے اختیاری سوالات"
+
+#: templates/form.html:258 templates/form.html.py:269 templates/form.html:283
+#: templates/form.html.py:290 templates/form.html:303
+#: templates/form.html.py:308
+msgid "Optional"
+msgstr "اختیاری"
+
+#: templates/form.html:301
+msgid "If you are in school, where do you go?"
+msgstr "اگر آپ سکول میں پڑھتے ہیں تو کہاں جاتے ہیں"
+
+#: templates/form.html:306
+msgid "What issue do you care most about?"
+msgstr "آپ کس مسئلے کی سب سے زیادہ پرواہ کرتے ہیں"
+
+#: templates/form.html:324 templates/form.html.py:336 templates/form.html:383
+#: templates/form_direct.html:192 templates/form_direct.html.py:204
+#: templates/form_direct.html:251
+msgid "Receive Email from"
+msgstr "ای میل کہاں سے وصول کرتے ہیں"
+
+#: templates/form.html:326 templates/form.html.py:338 templates/form.html:385
+#: templates/form_direct.html:194 templates/form_direct.html.py:206
+#: templates/form_direct.html:253
+msgid "privacy policy"
+msgstr "رازداری کی پالیسی"
+
+#: templates/form.html:347 templates/form_direct.html:215
+msgid "Receive Email Updates from Rock the Vote."
+msgstr "راک دا ووٹ سے تازہ ترین ای میل خبریں وصول کریں"
+
+#: templates/form.html:358 templates/form_direct.html:226
+msgid "Send me txt messages from"
+msgstr ""
+"مجھے ٹیکسٹ پیغامات بھجوائیںSend me txt messages from Rock the Vote.- مجھے "
+"راک دا ووٹ سے ٹیکسٹ پیغامات بھجوائیں(data &amp; msg rates may apply)- ڈیٹا "
+"سٹیمپ اور پیغامات کے ریٹ کا اطلاق ہو سکتا ہے"
+
+#: templates/form.html:359 templates/form_direct.html:227
+msgid "Send me txt messages from Rock the Vote."
+msgstr "مجھے ٹیکسٹ پیغامات بھجوائیں"
+
+#: templates/form.html:360 templates/form_direct.html:228
+msgid "(data &amp; msg rates may apply)"
+msgstr "مجھے راک دا ووٹ سے ٹیکسٹ پیغامات بھجوائیں"
+
+#: templates/form.html:373 templates/form_direct.html:241
+msgid "I would like to volunteer with"
+msgstr "ڈیٹا سٹیمپ اور پیغامات کے ریٹ کا اطلاق ہو سکتا ہے"
+
+#: templates/form.html:374 templates/form_direct.html:242
+msgid "I would like to volunteer with Rock the Vote."
+msgstr "میں رضاکارانہ طور پر کام کرنا چاہتا ہوں"
+
+#: templates/form.html:397
+msgid "Register"
+msgstr "رجسٹر ہوں"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Already registered?"
+msgstr "پہلے سے رجسٹرڈ ہیں"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Share with your friends"
+msgstr "اپنے دوستوں سے تبادلہ کریں"
+
+#: templates/form_ca_direct.html:22
+#, python-format
+msgid "I am a resident of %(state)s, living in the United States."
+msgstr "میں ریاست %(state)sکا رہائشی ہوں اور امریکہ میں رہتا ہوں"
+
+#: templates/form_ca_direct.html:25
+#, python-format
+msgid ""
+" You are eligible to finish your voter registration using the %(state_name)s "
+"online voter registration system. "
+msgstr ""
+"آپ یہ %(state_name)sآن لائن رجسٹریشن سسٹم استعمال کر کے اپنی رجسٹریشن مکمل "
+"کرنے کے اہل ہیں"
+
+#: templates/form_ca_direct.html:39
+msgid ""
+"You can complete your voter registration online with the state right now - "
+"using the application provided by Secretary of State. "
+msgstr ""
+"سیکرٹری آف سٹیٹ ڈیبرا باون کے مہیا کردہ نظام کے ذریعے آپ اپنا آن لائن ووٹر "
+"رجسٹریشن فارم ابھی مکمل کر سکتے ہیں"
+
+#: templates/form_direct.html:91
+msgid "Last name is required."
+msgstr "نام کا آخری حصہ لکھیں"
+
+#: templates/form_direct.html:167
+#, python-format
+msgid ""
+"I have a current %(state)s state identification card or driver's license"
+msgstr ""
+"میرے پاس سٹیٹ %(state)s کا موجودہ شناخت نامہ یا ڈرائیونگ لائسنس موجود ہے"
+
+#: templates/form_direct.html:170
+#, python-format
+msgid ""
+"You may be eligible to finish your voter registration using the "
+"%(state_name)s online voter registration system."
+msgstr ""
+"آپ%(state_name)s اپنا آن لائن رجسٹریشن فارم نیچے دیئے گئے لنک کو استعمال کر "
+"کے مکمل کر سکتے ہیں"
+
+#: templates/form_direct.html:175
+#, python-format
+msgid ""
+"I do not have a current %(state)s state identification card or driver's "
+"license"
+msgstr ""
+"میرے پاس سٹیٹ %(state)s کا موجودہ شناخت نامہ یا ڈرائیونگ لائسنس موجود نہیں ہے"
+
+#: templates/form_direct.html:279
+msgid "Submit my form online with the state"
+msgstr "میرا فارم آن لائن ریاست کو بھجوا دیں"
+
+#: templates/form_direct.html:280
+msgid "Register with Rock the Vote"
+msgstr "راک دا ووٹ کے ساتھ رجسٹریشن کروائیں"
+
+#: templates/form_direct.html:286 templates/form_wa_direct.html:20
+msgid "You can complete your voter registration online with the state below."
+msgstr ""
+"آپ اپنا آن لائن ووٹر رجسٹریشن فارم نیچے دی گئی ریاست کے ساتھ مکمل کر سکتے ہیں"
+
+#: templates/form_direct.html:287
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry — you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"اگر آپ کا ڈرائیونگ لائسنس یا ریاستی شناختی کارڈ غیرموثر ہے یا اگر ریاست آپ "
+"کے ڈی ایم وی ریکارڈ کی تصدیق کرنے سے قاصر ہے تو گھبرائیں نہیں آپ اپنا "
+"رجسٹریشن فارم راک دا ووٹ کے ساتھ اس طرح بھی مکمل کر سکتے ہیں کہ آپ کو اسے "
+"پرنٹ کرنا ہے اور دستخط کر کے اسے میل کرنا ہے۔<a href='javascript:"
+"redirectToRegularForm()'>"
+
+#: templates/form_direct.html:298 templates/share.html:24
+msgid "Spread the word"
+msgstr "یہ معلومات پھیلائیں"
+
+#: templates/form_direct.html:300
+msgid ""
+"Don't forget to tell your friends and family how easy it was to register. "
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"اپنے دوستوں اور خاندان کے افراد کو یہ بتانا نہ بھولیں کہ رجسٹریشن کروانا "
+"کتنا آسان ہے۔ رجسٹریشن کی تفصیلات کو عام کرنے کے لیے ذیل میں چند اشارات دیئے "
+"جا رہے ہیں"
+
+#: templates/form_nv_direct.html:33
+msgid ""
+"You can complete your voter registration online with the state below. The "
+"Nevada Online Voter Application (NOVA) is provided by Nevada Secretary of "
+"State for registering Nevada citizens to vote, or to change their existing "
+"registration information. NOVA is also available <a href=\"https://nvsos.gov/"
+"sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank\">here.</a>"
+msgstr ""
+"آپ نیچے دیئے گئے طریقہ کار کے مطابق ریاست کے ساتھ اپنی آن لائن رجسٹریشن مکمل "
+"کر سکتے ہیں۔ نیواڈا آن لائن رجسٹریشن کی درخواست (NOVA) برائے اندراج ووٹ یا "
+"تبدیلی موجودہ رجسٹریشن ریاست نیواڈا کے سیکرٹری راس ملر کی جانب سے مہیا کی "
+"جاتی ہے۔ نووا درج ذیل ویب سائٹ سے بھی ڈاﺅن لوڈ کی جا سکتی ہے۔ <a href="
+"\"https://nvsos.gov/sosvoterservices/Registration/step1.aspx?r=gov\" target="
+"\"_blank\">here.</a>"
+
+#: templates/form_nv_direct.html:35 templates/form_wa_direct.html:21
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry - you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"اگر آپ کا ڈرائیونگ لائسنس یا ریاستی شناختی کارڈ موثر نہیں یا ریاست کے پاس آپ "
+"کا DMV ریکارڈ موجود نہیں اور وہ اس کی تصدیق نہیں کر سکتی تو فکر نہ کریں۔ آپ "
+"نیچے دی گئی ویب سائٹ کے ذریعے راک دا ووٹ >کے ساتھ اپنی رجسٹریشن مکمل کر سکتے "
+"ہیں۔ بس آپ کو فارم پرنٹ کر کے دستخط کرنا ہیں اور اسے میل کر دینا ہے۔<a "
+"href='javascript:redirectToRegularForm()'>معذرت! درج ذیل وجوہات کی بنا پر "
+"آپ</a> رجسٹریشن فارم مکمل کرنے کے اہل نہیں ہیں"
+
+#: templates/ineligible.html:13
+msgid ""
+"Sorry, you are not eligible to register to vote for the following reason(s):"
+msgstr ""
+"معذرت! درج ذیل وجوہات کی بنا پر آپ رجسٹریشن فارم مکمل کرنے کے اہل نہیں ہیں"
+
+#: templates/map.html:5
+msgid "Select Your State"
+msgstr "اپنی ریاست منتخب کریں"
+
+#: templates/map.html:52
+msgid "Select your state to get started"
+msgstr "شروع کرنے کے لیے اپنی ریاست کا انتخاب کریں"
+
+#: templates/map.html:56
+msgid "Select State"
+msgstr "ریاست منتخب کریں"
+
+#: templates/map.html:116 templates/start.html:68
+msgid "Continue"
+msgstr "جاری رکھیں"
+
+#: templates/map.html:123
+msgid ""
+"Your state's deadline to register to vote in the November election may have "
+"already passed. Check the <a href=\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/\">Election Center</a> to find out."
+msgstr ""
+"آپ کی ریاست کی جانب سے مقرر کی گئی رجسٹریشن کی آخری حد برائے نومبر انتخابات "
+"پہلے ہی گزر چکی ہے۔ دیکھنے کے لیے یہ ویب سائٹ کھولیں<a href=\"http://www."
+"rockthevote.com/election-center/registration-deadlines/\">الیکشن سینٹر</a>"
+
+#: templates/share.html:5
+msgid "Spread the Word"
+msgstr "یہ معلومات پھیلائیں"
+
+#: templates/share.html:25
+msgid "Tell your friends and family to register"
+msgstr "اپنے دوستوں اور خاندان کے لوگوں کو رجسٹریشن کی ترغیب دلائیں"
+
+#: templates/share.html:28
+msgid ""
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr "ووٹر رجسٹریشن کی معلومات پھیلانے کے لیے یہ چند اشارات دیئے جا رہے ہیں"
+
+#: templates/start.html:5
+msgid "Get Started"
+msgstr "شروع کریں"
+
+#: templates/start.html:66
+msgid "Must be a citizen to register"
+msgstr "رجسٹریشن کے لیے شہری ہونا لازم ہے"
+
+#: templates/submit.html:5
+msgid "Download Your Form"
+msgstr "اپنا فارم ڈاﺅن لوڈ کیجئے"
+
+#: templates/submit.html:46
+msgid "You're not quite done!"
+msgstr "ابھی مکمل نہیں ہوا"
+
+#: templates/submit.html:47
+msgid "You still need to sign and mail in your form."
+msgstr "آپ نے ابھی اپنا فارم دستخط کر کے میل کرنا ہے"
+
+#: templates/submit.html:51
+msgid "Download"
+msgstr "ڈاﺅن لوڈ کیجئے"
+
+#: templates/submit.html:55
+msgid "We've also e-mailed you a link to retreive your form later"
+msgstr "فارم دوبارہ حاصل کرنے کے لیے ہم نے آپ کو ایک ای میل لنک بھجوا دیا ہے"
+
+#: templates/submit.html:60
+msgid "Check your email inbox for a link to your form"
+msgstr "لنک حاصل کرنے کے لیے اپنا ای میل ان باکس دیکھیں"
+
+#: templates/submit.html:65
+msgid "Preparing Form"
+msgstr "فارم تیار ہو رہا ہے"
+
+#: templates/submit.html:69
+msgid "This should only take a second"
+msgstr "اس میں صرف ایک سیکنڈ لگے گا"
+
+#: templates/submit.html:75
+msgid "Something went wrong "
+msgstr "کچھ گڑبڑ ہو گئی ہے"
+
+#: templates/submit.html:97
+msgid "Spread the word!"
+msgstr "یہ معلومات پھیلائیں"
+
+#: templates/share.html:31
+msgid "Post to Your Wall"
+msgstr "اسے بھیجیں"
+
+#: templates/share.html:33
+msgid "Tweet This"
+msgstr "یہ ٹویٹ"
+
+#: templates/form_direct_top_inputs.html:87
+msgid "I will be 18 or older by the next election."
+msgstr "میں نے ایک ڈرائیور کا لائسنس یا ریاست شناختی کارڈ ہے."
+
+#: templates/map.html:137
+msgid ""
+"<strong>Note</strong>: Some states offer online voter registration. <a "
+"href='http://www.rockthevote.com/voter-registration/online-application-"
+"system/online.html' target='_blank'>Learn more.</a> If you are an American "
+"citizen living abroad or a uniformed military voter, <a href='http://www."
+"rockthevote.com/voting-is-easy/voting-rights/overseas-rights/overseas.html' "
+"target='_blank'>click here</a> to register to vote."
+msgstr ""
+"<b>Note</b>: اگر آپ امریکی شہری ہیں لیکن کسی دوسرے ملک میں رہتے ہیں یا فوجی "
+"خدمات سرانجام دے رہے ہیں تو اپنے ووٹ کی رجسٹریشن کے لیے اسے کلک کری"

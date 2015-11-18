@@ -1,0 +1,617 @@
+# ROCK THE VOTE VOTER REGISTRATION TOOL LANGUAGE FOR UI.
+# © COPYRIGHT 2013 - ROCK THE VOTE
+# This file is distributed under the same license as the PACKAGE package.
+# ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCKTHEVOTE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 21:01+0000\n"
+"PO-Revision-Date: 2015-11-12 17:39-0800\n"
+"Last-Translator: ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>\n"
+"Language-Team: RTV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: vi\n"
+
+#: registrant/views.py:212
+msgid "Unrecognized state, please go back and try again."
+msgstr ""
+"Không nhận dạng được bang, xin vui lòng quay trở lại và thử lại lần nữa."
+
+#: registrant/views.py:236
+msgid "Unknown error: the web administrators have been contacted."
+msgstr ""
+"Không nhận dạng được lỗi: đã liên lạc với những người quản lý trang mạng."
+
+#: templates/base.html:10
+msgid "Voter Registration"
+msgstr "Đăng ký cử tri "
+
+#: templates/base.html:55
+msgid "Register in"
+msgstr "Đăng ký tại"
+
+#: templates/base.html:55 templates/error.html:4 templates/form.html:5
+#: templates/form_direct.html:5 templates/map.html:5 templates/share.html:5
+#: templates/start.html:5 templates/submit.html:5
+msgid "Register to Vote"
+msgstr "Đăng ký đi bầu"
+
+#: templates/base.html:64
+msgid "Translate"
+msgstr "Thông dịch"
+
+#: templates/base.html:82
+msgid "Powered by"
+msgstr "Hỗ trợ bởi"
+
+#: templates/error.html:4
+msgid "Error Processing Your Form"
+msgstr "Có lỗi phát sinh trong khi xử lý tờ đơn của bạn"
+
+#: templates/error.html:14 templates/ineligible.html:12
+msgid "Something went wrong"
+msgstr "Một điều gì đó không đúng đã xảy ra"
+
+#: templates/error.html:18
+msgid "Go back and try again?"
+msgstr "Xin vui lòng trở lại và thử lại lần nữa?"
+
+#: templates/form.html:20 templates/form.html.py:70
+#: templates/form_direct.html:74 templates/start.html:25
+msgid "Title"
+msgstr "Tước hiệu"
+
+#: templates/form.html:23 templates/form.html.py:72
+#: templates/form_direct.html:77 templates/start.html:28
+msgid "Mr."
+msgstr "Ông "
+
+#: templates/form.html:24 templates/form.html.py:73
+#: templates/form_direct.html:78 templates/start.html:29
+msgid "Ms."
+msgstr "Bà/cô"
+
+#: templates/form.html:25 templates/form.html.py:74
+#: templates/form_direct.html:79 templates/start.html:30
+msgid "Mrs."
+msgstr "Bà "
+
+#: templates/form.html:27 templates/form.html.py:76
+#: templates/form_direct.html:81
+msgid "Title is required."
+msgstr "Yêu cầu cần có tước hiệu."
+
+#: templates/form.html:30 templates/form.html.py:79
+#: templates/form_direct.html:84 templates/start.html:34
+msgid "First Name"
+msgstr "Tên "
+
+#: templates/form.html:32 templates/form.html.py:81
+#: templates/form_direct.html:86 templates/start.html:36
+msgid "Use your full first name. Do not use nicknames or initials."
+msgstr "Xin dùng tên hoàn chỉnh. Đừng dùng bí danh hay chữ cái đầu."
+
+#: templates/form.html:35 templates/form.html.py:84
+#: templates/form_direct.html:89 templates/start.html:39
+msgid "Last Name"
+msgstr "Họ"
+
+#: templates/form.html:37 templates/form.html.py:86
+msgid "This field is required."
+msgstr "Phần này cần có."
+
+#: templates/form.html:40 templates/form.html.py:89
+#: templates/form_direct.html:95
+msgid "Suffix"
+msgstr "Hậu tố"
+
+#: templates/form.html:50 templates/form.html.py:99
+#: templates/form_direct.html:105
+msgid "optional"
+msgstr "không bắt buộc"
+
+#: templates/form.html:56 templates/form_direct.html:131
+#: templates/start.html:65
+msgid "I am a U.S. Citizen"
+msgstr "Tôi là công dân Mỹ"
+
+#: templates/form.html:58 templates/form_direct.html:133
+msgid "You must be a U.S. citizen to register"
+msgstr "Bạn phải là công dân Mỹ mới có thể đăng ký"
+
+#: templates/form.html:62
+msgid "I have recently changed my name"
+msgstr "Tôi mới thay đổi tên mình"
+
+#: templates/form.html:67
+msgid "Previous Name"
+msgstr "Tên trước đây"
+
+#: templates/form.html:108
+msgid "Street Address"
+msgstr "Địa chỉ"
+
+#: templates/form.html:111
+msgid ""
+"Put your home address in these boxes. Do not put your mailing address here "
+"if it is different from your home address. Do not use a post office box or "
+"rural route without a box number. If you live in a rural area but do not "
+"have a street address, or if you have no address, please show where you live "
+"using the map on the printed form."
+msgstr ""
+"Ghi địa chỉ nhà bạn vào những ô này. Xin đừng ghi địa chỉ nhận thư của bạn "
+"tại đây nếu nó khác với địa chỉ nhà bạn. Xin đừng dùng hộp thư bưu điện hay "
+"tuyến đường nông thôn không có số hộp thư. Nếu bạn sống trong vùng nông thôn "
+"nhưng không có địa chỉ, hoặc nếu bạn không có địa chỉ, xin chỉ ra nơi bạn ở "
+"bằng bản đồ trên tờ đơn."
+
+#: templates/form.html:115 templates/form_direct.html:115
+msgid "Not in"
+msgstr "Không có trong"
+
+#: templates/form.html:116 templates/form_direct.html:116
+#: templates/start.html:52
+msgid "Zip Code"
+msgstr "Mã số vùng (ZIP)"
+
+#: templates/form.html:118 templates/form.html.py:150 templates/form.html:169
+#: templates/form_direct.html:118
+msgid "Enter a valid 5 digit zip code."
+msgstr "Xin điền mã số vùng hợp lệ gồm 5 chữ số."
+
+#: templates/form.html:126
+msgid "Registering Abroad?"
+msgstr "Đăng ký từ nước ngoài?"
+
+#: templates/form.html:130
+msgid "I have a different mailing address"
+msgstr "Tôi có địa chỉ nhận thư khác"
+
+#: templates/form.html:134
+msgid "I have recently moved"
+msgstr "Tôi vừa dọn nhà đi"
+
+#: templates/form.html:141
+msgid "Mailing Street Address"
+msgstr "Địa chỉ nhận thư"
+
+#: templates/form.html:144
+msgid "If you receive mail at a different address, please enter it here."
+msgstr "Nếu bạn nhận thư tại một địa chỉ khác, xin điền vào đây."
+
+#: templates/form.html:148
+msgid "Mailing Zip Code"
+msgstr "Mã số vùng của địa chỉ nhận thư"
+
+#: templates/form.html:160
+msgid "Previous Street Address"
+msgstr "Địa chỉ trước đó"
+
+#: templates/form.html:163
+msgid ""
+"If you have moved since your last registration, enter your previous address."
+msgstr ""
+"Nếu bạn đã dọn đi chỗ khác tính từ lần đăng ký gần nhất, xin điền vào địa "
+"chỉ trước đó của bạn."
+
+#: templates/form.html:167
+msgid "Previous Zip Code"
+msgstr "Mã số vùng trước đó"
+
+#: templates/form.html:180
+msgid "ID Number"
+msgstr "Mã số nhận dạng"
+
+#: templates/form.html:188 templates/form_direct.html:125
+msgid "Birthdate"
+msgstr "Ngày tháng năm sinh"
+
+#: templates/form.html:190 templates/form_direct.html:127
+msgid "Enter your birthdate in MM/DD/YYYY format."
+msgstr ""
+"Xin điền ngày tháng năm sinh của bạn dưới dạng Tháng/Ngày/Năm, với 2 chữ số "
+"cho tháng, 2 chữ số cho ngày, và 4 chữ số cho năm."
+
+#: templates/form.html:195 templates/form_direct.html:142
+#: templates/map.html:110 templates/map.html.py:111 templates/start.html:48
+msgid "Email Address"
+msgstr "Địa chỉ email (hộp thư điện tử)"
+
+#: templates/form.html:197 templates/form_direct.html:144
+msgid "Enter a valid email address."
+msgstr "Xin điền địa chỉ email hợp lệ."
+
+#: templates/form.html:200 templates/form_direct.html:147
+msgid "Phone Number"
+msgstr "Số điện thoại"
+
+#: templates/form.html:202 templates/form_direct.html:149
+msgid "Enter a phone number in xxx-xxx-xxxx format."
+msgstr "Xin điền số điện thoại dưới dạng xxx-xxx-xxxx."
+
+#: templates/form.html:205 templates/form_direct.html:152
+msgid "Type"
+msgstr "Dạng"
+
+#: templates/form.html:207 templates/form_direct.html:154
+msgid "Mobile"
+msgstr "Cầm tay"
+
+#: templates/form.html:208 templates/form_direct.html:155
+msgid "Home"
+msgstr "Nhà "
+
+#: templates/form.html:209 templates/form_direct.html:156
+msgid "Work"
+msgstr "Nơi làm việc"
+
+#: templates/form.html:216
+msgid "Political Affiliation"
+msgstr "Liên kết chính trị (theo đảng)"
+
+#: templates/form.html:218 templates/form.html.py:231
+msgid "Select One..."
+msgstr "Xin chọn một…"
+
+#: templates/form.html:229
+msgid "Race or Ethnic Group"
+msgstr "Chủng tộc hoặc sắc tộc/dân tộc"
+
+#: templates/form.html:232
+msgid "American Indian / Alaskan Native"
+msgstr "Người Mỹ Bản địa / Người Alaska Bản địa"
+
+#: templates/form.html:233
+msgid "Asian / Pacific Islander"
+msgstr "Người Châu Á / Thái Bình Dương"
+
+#: templates/form.html:234
+msgid "Black (not Hispanic)"
+msgstr "Người da đen (không phải Mỹ Latinh)"
+
+#: templates/form.html:235
+msgid "Hispanic"
+msgstr "Người Mỹ Latinh"
+
+#: templates/form.html:236
+msgid "White (not Hispanic)"
+msgstr "Người da trắng (không phải Mỹ Latinh)"
+
+#: templates/form.html:237
+msgid "Multi-racial"
+msgstr "Đa chủng tộc "
+
+#: templates/form.html:238
+msgid "Other"
+msgstr "Khác"
+
+#: templates/form.html:239
+msgid "Decline to State"
+msgstr "Từ chối trả lời"
+
+#: templates/form.html:249 templates/form.html.py:277 templates/form.html:298
+msgid "Survey Questions (optional)"
+msgstr "Các câu hỏi khảo sát (không bắt buộc)"
+
+#: templates/form.html:258 templates/form.html.py:269 templates/form.html:283
+#: templates/form.html.py:290 templates/form.html:303
+#: templates/form.html.py:308
+msgid "Optional"
+msgstr "Không bắt buộc"
+
+#: templates/form.html:301
+msgid "If you are in school, where do you go?"
+msgstr "Nếu bạn đang đi học, bạn học trường nào?"
+
+#: templates/form.html:306
+msgid "What issue do you care most about?"
+msgstr "Vấn đề gì mà bạn quan tâm nhất?"
+
+#: templates/form.html:324 templates/form.html.py:336 templates/form.html:383
+#: templates/form_direct.html:192 templates/form_direct.html.py:204
+#: templates/form_direct.html:251
+msgid "Receive Email from"
+msgstr "Nhận thư điện tử cập nhật từ"
+
+#: templates/form.html:326 templates/form.html.py:338 templates/form.html:385
+#: templates/form_direct.html:194 templates/form_direct.html.py:206
+#: templates/form_direct.html:253
+msgid "privacy policy"
+msgstr "chính sách bảo mật riêng tư "
+
+#: templates/form.html:347 templates/form_direct.html:215
+msgid "Receive Email Updates from Rock the Vote."
+msgstr "Nhận thư điện tử cập nhật từ Rock the Vote."
+
+#: templates/form.html:358 templates/form_direct.html:226
+msgid "Send me txt messages from"
+msgstr "Hãy gửi tin nhắn cho tôi từ"
+
+#: templates/form.html:359 templates/form_direct.html:227
+msgid "Send me txt messages from Rock the Vote."
+msgstr "Hãy gửi tin nhắn cho tôi từ Rock the Vote."
+
+#: templates/form.html:360 templates/form_direct.html:228
+msgid "(data &amp; msg rates may apply)"
+msgstr "(cước phí dữ liệu &amp; tin nhắn có thể sẽ được áp dụng)"
+
+#: templates/form.html:373 templates/form_direct.html:241
+msgid "I would like to volunteer with"
+msgstr "Tôi muốn tham gia tình nguyện với"
+
+#: templates/form.html:374 templates/form_direct.html:242
+msgid "I would like to volunteer with Rock the Vote."
+msgstr "Tôi muốn tham gia tình nguyện với Rock the Vote."
+
+#: templates/form.html:397
+msgid "Register"
+msgstr "Đăng ký "
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Already registered?"
+msgstr "Đã đăng ký rồi?"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Share with your friends"
+msgstr "Chia sẻ với bạn bè của bạn"
+
+#: templates/form_ca_direct.html:22
+#, python-format
+msgid "I am a resident of %(state)s, living in the United States."
+msgstr "Tôi là cư dân của bang %(state)s, đang sinh sống tại Mỹ."
+
+#: templates/form_ca_direct.html:25
+#, python-format
+msgid ""
+" You are eligible to finish your voter registration using the %(state_name)s "
+"online voter registration system. "
+msgstr ""
+"Bạn có đủ điều kiện hoàn thành bản đăng ký cử tri của mình qua việc sử dụng "
+"hệ thống đăng ký cử tri trực tuyến của bang %(state_name)s."
+
+#: templates/form_ca_direct.html:39
+msgid ""
+"You can complete your voter registration online with the state right now - "
+"using the application provided by Secretary of State. "
+msgstr ""
+"Bạn có thể hoàn thành bản đăng ký cử tri trực tuyến với tiểu bang mình ngay "
+"bây giờ - qua việc sử dụng bản đăng ký cung cấp bởi Thư ký Bang."
+
+#: templates/form_direct.html:91
+msgid "Last name is required."
+msgstr "Yêu cầu cần có họ."
+
+#: templates/form_direct.html:167
+#, python-format
+msgid ""
+"I have a current %(state)s state identification card or driver's license"
+msgstr ""
+"Tôi có thẻ căn cước hoặc giấy phép lái xe hiện hành của bang %(state)s."
+
+#: templates/form_direct.html:170
+#, python-format
+msgid ""
+"You may be eligible to finish your voter registration using the "
+"%(state_name)s online voter registration system."
+msgstr ""
+"Bạn có thể có đủ điều kiện hoàn thành bản đăng ký cử tri qua việc sử dụng hệ "
+"thống đăng ký cử tri trực tuyến của bang %(state_name)s."
+
+#: templates/form_direct.html:175
+#, python-format
+msgid ""
+"I do not have a current %(state)s state identification card or driver's "
+"license"
+msgstr ""
+"Tôi không có thẻ căn cước hoặc giấy phép lái xe hiện hành của bang %(state)s"
+
+#: templates/form_direct.html:279
+msgid "Submit my form online with the state"
+msgstr "Hãy nôp đơn trực tuyến của tôi tới tiểu bang"
+
+#: templates/form_direct.html:280
+msgid "Register with Rock the Vote"
+msgstr "Đăng ký với Rock the Vote"
+
+#: templates/form_direct.html:286 templates/form_wa_direct.html:20
+msgid "You can complete your voter registration online with the state below."
+msgstr ""
+"Bạn có thể hoàn thành bản đăng ký cử tri trực tuyến của mình với tiểu bang "
+"bên dưới."
+
+#: templates/form_direct.html:287
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry — you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"Nếu giấy phép lái xe hay thẻ căn cước bang của bạn không hợp lệ, hoặc tiểu "
+"bang bạn không tìm thấy hay khẳng định tư liệu giấy tờ xe của bạn - đừng lo "
+"- bạn cũng có thể <a href=‘javascript:redirectToRegularForm()’> hoàn thành "
+"bản đăng ký của mình với Rock the Vote</a>. Bạn chỉ cần in tờ đơn ra, ký "
+"tên, và gửi đi."
+
+#: templates/form_direct.html:298 templates/share.html:24
+msgid "Spread the word"
+msgstr "Xin phát tán thông tin"
+
+#: templates/form_direct.html:300
+msgid ""
+"Don't forget to tell your friends and family how easy it was to register. "
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"Đừng quên nói cho bạn bè và gia đình bạn biết việc đăng ký dễ dàng đến thế "
+"nào. Sau đây là một vài công cụ mà bạn có thể sử dụng để truyền đạt thông "
+"tin về việc đăng ký cử tri:"
+
+#: templates/form_nv_direct.html:33
+msgid ""
+"You can complete your voter registration online with the state below. The "
+"Nevada Online Voter Application (NOVA) is provided by Nevada Secretary of "
+"State for registering Nevada citizens to vote, or to change their existing "
+"registration information. NOVA is also available <a href=\"https://nvsos.gov/"
+"sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank\">here.</a>"
+msgstr ""
+"Bạn có thể hoàn tất bản đăng ký cử tri trực tuyến với bang bên dưới. Bản "
+"đăng ký Cử tri Trực tuyến Bang Nevada (NOVA) được cung cấp bởi Thư ký Bang "
+"dùng để đăng ký cử tri các công dân Nevada, hoặc để thay đổi thông tin đăng "
+"ký hiện tại. NOVA cũng có thể được tìm thấy <a href=\"https://nvsos.gov/"
+"sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank\">tại đây.</"
+"a>"
+
+#: templates/form_nv_direct.html:35 templates/form_wa_direct.html:21
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry - you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"Nếu giấy phép lái xe hay thẻ căn cước bang của bạn không hợp lệ, hoặc tiểu "
+"bang bạn không tìm thấy hay khẳng định tư liệu giấy tờ xe của bạn - đừng lo "
+"- bạn cũng có thể <a href=‘javascript:redirectToRegularForm()’> hoàn thành "
+"bản đăng ký của mình với Rock the Vote</a>. Bạn chỉ cần in tờ đơn ra, ký "
+"tên, và gửi đi."
+
+#: templates/ineligible.html:13
+msgid ""
+"Sorry, you are not eligible to register to vote for the following reason(s):"
+msgstr "Xin lỗi, bạn không có đủ điều kiện đăng ký cử tri vì (các) lý do sau:"
+
+#: templates/map.html:5
+msgid "Select Your State"
+msgstr "Xin lựa chọn bang mình"
+
+#: templates/map.html:52
+msgid "Select your state to get started"
+msgstr "Xin lựa chọn bang mình để bắt đầu"
+
+#: templates/map.html:56
+msgid "Select State"
+msgstr "Xin lựa chọn bang"
+
+#: templates/map.html:116 templates/start.html:68
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: templates/map.html:123
+msgid ""
+"Your state's deadline to register to vote in the November election may have "
+"already passed. Check the <a href=\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/\">Election Center</a> to find out."
+msgstr ""
+"Có thể đã quá hạn ghi danh đi bầu tại bang bạn tại cuộc bầu cử tháng 12 "
+"năm . Xin kiểm tra <a href=\"http://www.rockthevote.com/election-center/"
+"registration-deadlines/\">Trung tâm Bầu cử</a> để biết thêm chi tiết."
+
+#: templates/share.html:5
+msgid "Spread the Word"
+msgstr "Xin truyền đạt thông tin"
+
+#: templates/share.html:25
+msgid "Tell your friends and family to register"
+msgstr "Nói bạn bè và gia đình bạn nghe để họ đăng ký"
+
+#: templates/share.html:28
+msgid ""
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"Sau đây là vài công cụ bạn có thể sử dụng để truyền đạt thông tin về đăng ký "
+"cử tri:"
+
+#: templates/start.html:5
+msgid "Get Started"
+msgstr "Bắt đầu"
+
+#: templates/start.html:66
+msgid "Must be a citizen to register"
+msgstr "Phải là công dân Mỹ mới có thể đăng ký"
+
+#: templates/submit.html:5
+msgid "Download Your Form"
+msgstr "Tải tờ đơn của bạn về"
+
+#: templates/submit.html:46
+msgid "You're not quite done!"
+msgstr "Có vẻ như bạn chưa xong!"
+
+#: templates/submit.html:47
+msgid "You still need to sign and mail in your form."
+msgstr "Bạn còn cần ký tên và gửi tờ đơn đi."
+
+#: templates/submit.html:51
+msgid "Download"
+msgstr "Tải về"
+
+#: templates/submit.html:55
+msgid "We've also e-mailed you a link to retreive your form later"
+msgstr ""
+"Chúng tôi cũng vừa email bạn đường dẫn để truy cập vào tờ đơn của bạn trong "
+"tương la"
+
+#: templates/submit.html:60
+msgid "Check your email inbox for a link to your form"
+msgstr ""
+"Xin kiểm tra hộp thư đến trong hộp thư điện tử của bạn để thấy được đường "
+"dẫn đến tờ đơn"
+
+#: templates/submit.html:65
+msgid "Preparing Form"
+msgstr "Đang chuẩn bị tờ đơn"
+
+#: templates/submit.html:69
+msgid "This should only take a second"
+msgstr "Việc này chỉ mất vài giây"
+
+#: templates/submit.html:75
+msgid "Something went wrong "
+msgstr "Một điều gì đó không đúng đã xảy ra"
+
+#: templates/submit.html:97
+msgid "Spread the word!"
+msgstr "Xin truyền đạt thông tin!"
+
+#: templates/form_direct_top_inputs.html:87
+msgid "I will be 18 or older by the next election."
+msgstr "Tôi sẽ đủ 18 tuổi vào kì bầu cử tới."
+
+#: templates/map.html:137
+msgid ""
+"<strong>Note</strong>: Some states offer online voter registration. <a "
+"href='http://www.rockthevote.com/voter-registration/online-application-"
+"system/online.html' target='_blank'>Learn more.</a> If you are an American "
+"citizen living abroad or a uniformed military voter, <a href='http://www."
+"rockthevote.com/voting-is-easy/voting-rights/overseas-rights/overseas.html' "
+"target='_blank'>click here</a> to register to vote."
+msgstr ""
+"<b>Ghi chú</b>: Nếu bạn là công dân Hoa Kỳ sống ở nước ngoài hoặc là cử tri "
+"trong quân đội, <a href='http://www.rockthevote.com/voting-is-easy/voting-"
+"rights/overseas-rights/overseas.html' target='_blank'>ấn vào đây</a>để đăng "
+"ký bầu cử."
+
+#~ msgid ""
+#~ "You can complete your voter registration online with the state right now "
+#~ "- using the application provided by Secretary of State Debra Bowen.  If "
+#~ "you don't know your social security number, your driver's license or "
+#~ "identification card is invalid, or the state can't find or confirm your "
+#~ "DMV record - don't worry - you can also <a href='javascript:"
+#~ "redirectToRegularForm()'> finish your registration with Rock the Vote</"
+#~ "a>.  You will just have to print, sign, and mail in the form by October "
+#~ "22nd."
+#~ msgstr ""
+#~ "您現在可向州政府完成您的網上選民登記 - 使用由州務卿Debra Bowen 提供的應用"
+#~ "程序。如果您不知道您的社會安全號碼，或您的駕駛執照或身份證是無效的，或州政"
+#~ "府不能找到或確認您的DMV記錄 - 請不要擔心 - 您可以<a href='javascript:"
+#~ "redirectToRegularForm()'>與 Rock the Vote完成您的登記</a>。您只需要打印，"
+#~ "簽署，及在10月22日前郵寄表格。"
+
+#~ msgid "Unknown error, please contact an admin"
+#~ msgstr "未知錯誤，請與管理員聯繫"

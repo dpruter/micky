@@ -1,0 +1,587 @@
+# ROCK THE VOTE VOTER REGISTRATION TOOL LANGUAGE FOR UI.
+# © COPYRIGHT 2014 - ROCK THE VOTE
+# This file is distributed under the same license as the PACKAGE package.
+# ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCKTHEVOTE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 21:01+0000\n"
+"PO-Revision-Date: 2015-11-12 17:38-0800\n"
+"Last-Translator: ROCK THE VOTE <ADMIN@ROCKTHEVOTE.COM>\n"
+"Language-Team: RTV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: ja\n"
+
+#: registrant/views.py:212
+msgid "Unrecognized state, please go back and try again."
+msgstr "州が認識されません。戻って再度入力して下さい。"
+
+#: registrant/views.py:236
+msgid "Unknown error: the web administrators have been contacted."
+msgstr "不明のエラー：ウエブ管理者に連絡されました。"
+
+#: templates/base.html:10
+msgid "Voter Registration"
+msgstr "投票者登録"
+
+#: templates/base.html:55
+msgid "Register in"
+msgstr "登録:"
+
+#: templates/base.html:55 templates/error.html:4 templates/form.html:5
+#: templates/form_direct.html:5 templates/map.html:5 templates/share.html:5
+#: templates/start.html:5 templates/submit.html:5
+msgid "Register to Vote"
+msgstr "投票登録する"
+
+#: templates/base.html:64
+msgid "Translate"
+msgstr "翻訳する"
+
+#: templates/base.html:82
+msgid "Powered by"
+msgstr "提供"
+
+#: templates/error.html:4
+msgid "Error Processing Your Form"
+msgstr "用紙の処理中にエラーが発生しました"
+
+#: templates/error.html:14 templates/ineligible.html:12
+msgid "Something went wrong"
+msgstr "何かがうまくいきませんでした"
+
+#: templates/error.html:18
+msgid "Go back and try again?"
+msgstr "戻って再度試してみますか？"
+
+#: templates/form.html:20 templates/form.html.py:70
+#: templates/form_direct.html:74 templates/start.html:25
+msgid "Title"
+msgstr "タイトル"
+
+#: templates/form.html:23 templates/form.html.py:72
+#: templates/form_direct.html:77 templates/start.html:28
+msgid "Mr."
+msgstr "ミスター"
+
+#: templates/form.html:24 templates/form.html.py:73
+#: templates/form_direct.html:78 templates/start.html:29
+msgid "Ms."
+msgstr "ミズ"
+
+#: templates/form.html:25 templates/form.html.py:74
+#: templates/form_direct.html:79 templates/start.html:30
+msgid "Mrs."
+msgstr "ミセス"
+
+#: templates/form.html:27 templates/form.html.py:76
+#: templates/form_direct.html:81
+msgid "Title is required."
+msgstr "タイトルは必須です。"
+
+#: templates/form.html:30 templates/form.html.py:79
+#: templates/form_direct.html:84 templates/start.html:34
+msgid "First Name"
+msgstr "名（ファーストネーム）"
+
+#: templates/form.html:32 templates/form.html.py:81
+#: templates/form_direct.html:86 templates/start.html:36
+msgid "Use your full first name. Do not use nicknames or initials."
+msgstr ""
+"省略しないファースト　ネーム。ニックネームやイニシャルは使わないで下さい。"
+
+#: templates/form.html:35 templates/form.html.py:84
+#: templates/form_direct.html:89 templates/start.html:39
+msgid "Last Name"
+msgstr "姓（ラストネーム）"
+
+#: templates/form.html:37 templates/form.html.py:86
+msgid "This field is required."
+msgstr "この分野は必須です。"
+
+#: templates/form.html:40 templates/form.html.py:89
+#: templates/form_direct.html:95
+msgid "Suffix"
+msgstr "接尾辞（Jr., Sir., II,III ）"
+
+#: templates/form.html:50 templates/form.html.py:99
+#: templates/form_direct.html:105
+msgid "optional"
+msgstr "任意の"
+
+#: templates/form.html:56 templates/form_direct.html:131
+#: templates/start.html:65
+msgid "I am a U.S. Citizen"
+msgstr "私は米国市民です。"
+
+#: templates/form.html:58 templates/form_direct.html:133
+msgid "You must be a U.S. citizen to register"
+msgstr "登録するためにはアメリカ市民でなければなりません。"
+
+#: templates/form.html:62
+msgid "I have recently changed my name"
+msgstr "最近私は名前が変わりました。"
+
+#: templates/form.html:67
+msgid "Previous Name"
+msgstr "以前の名前"
+
+#: templates/form.html:108
+msgid "Street Address"
+msgstr "所在地住所"
+
+#: templates/form.html:111
+msgid ""
+"Put your home address in these boxes. Do not put your mailing address here "
+"if it is different from your home address. Do not use a post office box or "
+"rural route without a box number. If you live in a rural area but do not "
+"have a street address, or if you have no address, please show where you live "
+"using the map on the printed form."
+msgstr ""
+"ここのボックスでは家の住所を入力して下さい。家の住所と違っている場合はここで"
+"は郵送先の住所を使わないで下さい。私書箱の番号やボックス番号なしの農村地ルー"
+"トも使用しないで下さい。農村地帯に住んでいて通り番地、または住所がない場合に"
+"は、印刷された地図を使ってどこに住んでいるかを示して下さい。"
+
+#: templates/form.html:115 templates/form_direct.html:115
+msgid "Not in"
+msgstr "以外"
+
+#: templates/form.html:116 templates/form_direct.html:116
+#: templates/start.html:52
+msgid "Zip Code"
+msgstr "郵便番号"
+
+#: templates/form.html:118 templates/form.html.py:150 templates/form.html:169
+#: templates/form_direct.html:118
+msgid "Enter a valid 5 digit zip code."
+msgstr "有効な５桁の郵便番号を書いて下さい。"
+
+#: templates/form.html:126
+msgid "Registering Abroad?"
+msgstr "海外で登録していますか？"
+
+#: templates/form.html:130
+msgid "I have a different mailing address"
+msgstr "私は別の郵送先住所を持っています。"
+
+#: templates/form.html:134
+msgid "I have recently moved"
+msgstr "私は最近引っ越しをしました。"
+
+#: templates/form.html:141
+msgid "Mailing Street Address"
+msgstr "郵送先住所"
+
+#: templates/form.html:144
+msgid "If you receive mail at a different address, please enter it here."
+msgstr "郵便を別の住所で受け取る場合は、その住所をここに書いて下さい。"
+
+#: templates/form.html:148
+msgid "Mailing Zip Code"
+msgstr "郵送先郵便番号"
+
+#: templates/form.html:160
+msgid "Previous Street Address"
+msgstr "旧住所"
+
+#: templates/form.html:163
+msgid ""
+"If you have moved since your last registration, enter your previous address."
+msgstr "前の登録をしてから引っ越した場合は、旧住所を書いて下さい。"
+
+#: templates/form.html:167
+msgid "Previous Zip Code"
+msgstr "旧郵便番号"
+
+#: templates/form.html:180
+msgid "ID Number"
+msgstr "身分証明書番号"
+
+#: templates/form.html:188 templates/form_direct.html:125
+msgid "Birthdate"
+msgstr "生年月日"
+
+#: templates/form.html:190 templates/form_direct.html:127
+msgid "Enter your birthdate in MM/DD/YYYY format."
+msgstr "あなたの生年月日を月／日／年で入力して下さい。"
+
+#: templates/form.html:195 templates/form_direct.html:142
+#: templates/map.html:110 templates/map.html.py:111 templates/start.html:48
+msgid "Email Address"
+msgstr "Eメールアドレス"
+
+#: templates/form.html:197 templates/form_direct.html:144
+msgid "Enter a valid email address."
+msgstr "有効なeメールアドレスを入力して下さい。"
+
+#: templates/form.html:200 templates/form_direct.html:147
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: templates/form.html:202 templates/form_direct.html:149
+msgid "Enter a phone number in xxx-xxx-xxxx format."
+msgstr "電話番号をxxx-xxx-xxxxの形式で入力して下さい。"
+
+#: templates/form.html:205 templates/form_direct.html:152
+msgid "Type"
+msgstr "タイプ"
+
+#: templates/form.html:207 templates/form_direct.html:154
+msgid "Mobile"
+msgstr "携帯電話"
+
+#: templates/form.html:208 templates/form_direct.html:155
+msgid "Home"
+msgstr "家の電話"
+
+#: templates/form.html:209 templates/form_direct.html:156
+msgid "Work"
+msgstr "勤務先の電話"
+
+#: templates/form.html:216
+msgid "Political Affiliation"
+msgstr "支持政党"
+
+#: templates/form.html:218 templates/form.html.py:231
+msgid "Select One..."
+msgstr "一つだけ選んで下さい。"
+
+#: templates/form.html:229
+msgid "Race or Ethnic Group"
+msgstr "人種あるいは民族"
+
+#: templates/form.html:232
+msgid "American Indian / Alaskan Native"
+msgstr "アメリカンインディアン／アラスカンネイティブ"
+
+#: templates/form.html:233
+msgid "Asian / Pacific Islander"
+msgstr "アジア系／太平洋諸島系"
+
+#: templates/form.html:234
+msgid "Black (not Hispanic)"
+msgstr "黒人（ヒスパニックではない）"
+
+#: templates/form.html:235
+msgid "Hispanic"
+msgstr "ヒスパニック"
+
+#: templates/form.html:236
+msgid "White (not Hispanic)"
+msgstr "白人（ヒスパニックではない）"
+
+#: templates/form.html:237
+msgid "Multi-racial"
+msgstr "二つ以上の人種"
+
+#: templates/form.html:238
+msgid "Other"
+msgstr "その他"
+
+#: templates/form.html:239
+msgid "Decline to State"
+msgstr "回答を辞退します。"
+
+#: templates/form.html:249 templates/form.html.py:277 templates/form.html:298
+msgid "Survey Questions (optional)"
+msgstr "アンケート調査の質問（任意）"
+
+#: templates/form.html:258 templates/form.html.py:269 templates/form.html:283
+#: templates/form.html.py:290 templates/form.html:303
+#: templates/form.html.py:308
+msgid "Optional"
+msgstr "任意"
+
+#: templates/form.html:301
+msgid "If you are in school, where do you go?"
+msgstr "学校に行っているのであれば、どこに行っていますか？"
+
+#: templates/form.html:306
+msgid "What issue do you care most about?"
+msgstr "どのような問題があなたにとって気がかりですか？"
+
+#: templates/form.html:324 templates/form.html.py:336 templates/form.html:383
+#: templates/form_direct.html:192 templates/form_direct.html.py:204
+#: templates/form_direct.html:251
+msgid "Receive Email from"
+msgstr "最新情報をeメールで受け取ります："
+
+#: templates/form.html:326 templates/form.html.py:338 templates/form.html:385
+#: templates/form_direct.html:194 templates/form_direct.html.py:206
+#: templates/form_direct.html:253
+msgid "privacy policy"
+msgstr "プライバシーに関する方針"
+
+#: templates/form.html:347 templates/form_direct.html:215
+msgid "Receive Email Updates from Rock the Vote."
+msgstr "Rock the Voteから最新情報をeメールで受け取っています。"
+
+#: templates/form.html:358 templates/form_direct.html:226
+msgid "Send me txt messages from"
+msgstr "テキストメッセージを送って下さい："
+
+#: templates/form.html:359 templates/form_direct.html:227
+msgid "Send me txt messages from Rock the Vote."
+msgstr "Rock the Voteからテキストメッセージを送って下さい。"
+
+#: templates/form.html:360 templates/form_direct.html:228
+msgid "(data &amp; msg rates may apply)"
+msgstr "(料金がかかることがあります)"
+
+#: templates/form.html:373 templates/form_direct.html:241
+msgid "I would like to volunteer with"
+msgstr "ボランティアすることを希望します："
+
+#: templates/form.html:374 templates/form_direct.html:242
+msgid "I would like to volunteer with Rock the Vote."
+msgstr "Rock the Voteでボランティアすることを希望します。"
+
+#: templates/form.html:397
+msgid "Register"
+msgstr "登録"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Already registered?"
+msgstr "すでに登録されていますか？"
+
+#: templates/form.html:402 templates/form_direct.html:311
+#: templates/map.html:127
+msgid "Share with your friends"
+msgstr "友達に伝えて下さい。"
+
+#: templates/form_ca_direct.html:22
+#, python-format
+msgid "I am a resident of %(state)s, living in the United States."
+msgstr "私はアメリカ合衆国に住んでおり、%(state)s 州の住民です。"
+
+#: templates/form_ca_direct.html:25
+#, python-format
+msgid ""
+" You are eligible to finish your voter registration using the %(state_name)s "
+"online voter registration system. "
+msgstr ""
+"あなたには%(state_name)s 州のオンライン投票者登録システムを使って登録を完了さ"
+"せる資格があります。"
+
+#: templates/form_ca_direct.html:39
+msgid ""
+"You can complete your voter registration online with the state right now - "
+"using the application provided by Secretary of State. "
+msgstr ""
+"デボラ・ボウエン州務長官提供の申込用紙を使い、オンラインで投票登録を今すぐ完"
+"了することができます。"
+
+#: templates/form_direct.html:91
+msgid "Last name is required."
+msgstr "姓（ラストネーム）は必須です。"
+
+#: templates/form_direct.html:167
+#, python-format
+msgid ""
+"I have a current %(state)s state identification card or driver's license"
+msgstr "私は%(state)s州の有効な身分証明書または運転免許証を持っています。"
+
+#: templates/form_direct.html:170
+#, python-format
+msgid ""
+"You may be eligible to finish your voter registration using the "
+"%(state_name)s online voter registration system."
+msgstr ""
+"あなたには%(state_name)s州のオンライン投票者登録システムを使って登録を完了さ"
+"せる資格があるかもしれません。"
+
+#: templates/form_direct.html:175
+#, python-format
+msgid ""
+"I do not have a current %(state)s state identification card or driver's "
+"license"
+msgstr "私は%(state)s 州の有効な身分証明書または運転免許証を持っていません。"
+
+#: templates/form_direct.html:279
+msgid "Submit my form online with the state"
+msgstr "私の申込用紙を州にオンラインで提出する"
+
+#: templates/form_direct.html:280
+msgid "Register with Rock the Vote"
+msgstr "Rock the Voteに登録する"
+
+#: templates/form_direct.html:286 templates/form_wa_direct.html:20
+msgid "You can complete your voter registration online with the state below."
+msgstr "州へのオンライン投票者登録を下記で完了できます。"
+
+#: templates/form_direct.html:287
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry — you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"運転免許証や州の身分証明書カードが無効であったり、州があなたのDMVの記録を見つ"
+"ける、または確認することができなくても心配はいりません。 <a href='javascript:"
+"redirectToRegularForm()'>することも可能です。Rock the Voteでの登録を終了して"
+"下さい。</a>印刷し、署名し、郵送するだけです。"
+
+#: templates/form_direct.html:298 templates/share.html:24
+msgid "Spread the word"
+msgstr "広く伝えましょう"
+
+#: templates/form_direct.html:300
+msgid ""
+"Don't forget to tell your friends and family how easy it was to register. "
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr ""
+"あなたの友人や家族に登録がいかに簡単だったか忘れずに伝えて下さい。ここに投票"
+"登録を広めるために使えるツールがあります："
+
+#: templates/form_nv_direct.html:33
+msgid ""
+"You can complete your voter registration online with the state below. The "
+"Nevada Online Voter Application (NOVA) is provided by Nevada Secretary of "
+"State for registering Nevada citizens to vote, or to change their existing "
+"registration information. NOVA is also available <a href=\"https://nvsos.gov/"
+"sosvoterservices/Registration/step1.aspx?r=gov\" target=\"_blank\">here.</a>"
+msgstr ""
+"オンライン投票登録は下記のように完了することができます。ネバダオンライン投票"
+"登録(NOVA)はネバダ市民の投票登録や登録済みの情報の変更のために、ネバダ州務長"
+"官、ロス・ミラーによって提供されました。(NOVA)はあなたの運転免許が無効であっ"
+"たり、州がDMVの記録を確認することができない場合でも、ご心配はありません。 <a "
+"href=¥\"https://nvsos.gov/sosvoterservices/Registration/step1.aspx?r=gov¥\" "
+"target=¥\"_blank¥\">でもアクセスできます。</a>"
+
+#: templates/form_nv_direct.html:35 templates/form_wa_direct.html:21
+msgid ""
+"If your driver's license or state identification card is invalid or the "
+"state can't find or confirm your DMV record - don't worry - you can also <a "
+"href='javascript:redirectToRegularForm()'> finish your registration with "
+"Rock the Vote</a>. You will just have to print, sign, and mail it in."
+msgstr ""
+"運転免許証や州の身分証明書カードが無効であったり、州があなたのDMVの記録を見つ"
+"ける、または確認することができなくても心配はいりません。 <a href='javascript:"
+"redirectToRegularForm()'>することも可能です。Rock the　Voteでの登録を終了して"
+"下さい。</a>印刷し、署名し、郵送するだけです。"
+
+#: templates/ineligible.html:13
+msgid ""
+"Sorry, you are not eligible to register to vote for the following reason(s):"
+msgstr "申し訳ありませんが、次の理由であなたには投票者登録の資格がありません："
+
+#: templates/map.html:5
+msgid "Select Your State"
+msgstr "州を選択して下さい"
+
+#: templates/map.html:52
+msgid "Select your state to get started"
+msgstr "まず最初に州を選択して下さい"
+
+#: templates/map.html:56
+msgid "Select State"
+msgstr "州を選択して下さい"
+
+#: templates/map.html:116 templates/start.html:68
+msgid "Continue"
+msgstr "続ける"
+
+#: templates/map.html:123
+msgid ""
+"Your state's deadline to register to vote in the November election may have "
+"already passed. Check the <a href=\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/\">Election Center</a> to find out."
+msgstr ""
+"２０１3年１１月の選挙で投票するためのあなたの州での登録期限はすでに過ぎてし"
+"まっているかもしれません。 <a href=¥\"http://www.rockthevote.com/election-"
+"center/registration-deadlines/¥\">選挙センターr</a> をご覧下さい。"
+
+#: templates/share.html:5
+msgid "Spread the Word"
+msgstr "広く伝えましょう"
+
+#: templates/share.html:25
+msgid "Tell your friends and family to register"
+msgstr "家族や友達に投票者登録をするように呼びかけて下さい"
+
+#: templates/share.html:28
+msgid ""
+"Here are a few tools you can use to spread the word about voter registration:"
+msgstr "ここに投票登録を広めるために使えるツールがあります："
+
+#: templates/start.html:5
+msgid "Get Started"
+msgstr "始める"
+
+#: templates/start.html:66
+msgid "Must be a citizen to register"
+msgstr "登録のためには市民でなければなりません"
+
+#: templates/submit.html:5
+msgid "Download Your Form"
+msgstr "用紙をダウンロードして下さい。"
+
+#: templates/submit.html:46
+msgid "You're not quite done!"
+msgstr "まだ終わっていません！"
+
+#: templates/submit.html:47
+msgid "You still need to sign and mail in your form."
+msgstr "まだ用紙に署名し郵送しなければなりません。"
+
+#: templates/submit.html:51
+msgid "Download"
+msgstr "ダウンロード"
+
+#: templates/submit.html:55
+msgid "We've also e-mailed you a link to retreive your form later"
+msgstr "のちにあなたの用紙を回収するためのリンクをeメールしておきました。"
+
+#: templates/submit.html:60
+msgid "Check your email inbox for a link to your form"
+msgstr ""
+"あなたの用紙へのリンクがあるか、eメールの受信ボックスをチェックして下さい。"
+
+#: templates/submit.html:65
+msgid "Preparing Form"
+msgstr "用紙を作成しています。"
+
+#: templates/submit.html:69
+msgid "This should only take a second"
+msgstr "ほんの短い時間しかかかりません"
+
+#: templates/submit.html:75
+msgid "Something went wrong "
+msgstr "何かがうまくいきませんでした"
+
+#: templates/submit.html:97
+msgid "Spread the word!"
+msgstr "広く伝えましょう！"
+
+#: templates/share.html:31
+msgid "Post to Your Wall"
+msgstr "投稿して下さい！"
+
+#: templates/share.html:33
+msgid "Tweet This"
+msgstr "ツイートする！"
+
+#: templates/form_direct_top_inputs.html:87
+msgid "I will be 18 or older by the next election."
+msgstr "私は次の選挙までに１８歳になります。"
+
+#: templates/map.html:137
+msgid ""
+"<strong>Note</strong>: Some states offer online voter registration. <a "
+"href='http://www.rockthevote.com/voter-registration/online-application-"
+"system/online.html' target='_blank'>Learn more.</a> If you are an American "
+"citizen living abroad or a uniformed military voter, <a href='http://www."
+"rockthevote.com/voting-is-easy/voting-rights/overseas-rights/overseas.html' "
+"target='_blank'>click here</a> to register to vote."
+msgstr ""
+"<b>注意</b>:海外に住むアメリカ市民や（制服を着る）軍関係の投票者は、投票登録"
+"するために <a href='http://www.rockthevote.com/voting-is-easy/voting-rights/"
+"overseas-rights/overseas.html' target='_blank'> ここを</a>押して下さい。"

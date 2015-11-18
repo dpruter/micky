@@ -1,0 +1,36 @@
+{% extends "form_direct_top_inputs.html" %}
+
+{% load i18n %} 
+
+{%block add_state_iframe%}
+
+{%if request.LANGUAGE_CODE == 'en' %}
+
+<script type="text/javascript">
+    function add_state_iframe(token_id) {
+      var lang = $('input#lang').val();      
+      var iframe_url = 'https://covr.sos.ca.gov/?language=en-US&t=p&CovrAgencyKey=RTV&PostingAgencyRecordId=' + token_id;
+      $('#form-replacement').html('<div class="big-button"><a class="button button-primary register" tabindex="" href="'+iframe_url+'" target="_blank">{% trans "Submit my form online with the state" %}</a></div>');
+    }
+  </script>
+{% elif request.LANGUAGE_CODE == 'es' %}
+<script type="text/javascript">
+    function add_state_iframe(token_id) {
+      var lang = $('input#lang').val();
+      var iframe_url = 'https://covr.sos.ca.gov/?language=es-MX&t=p&CovrAgencyKey=RTV&PostingAgencyRecordId=' + token_id;
+      $('#form-replacement').html('<div class="big-button"><a class="button button-primary register" tabindex="" href="'+iframe_url+'" target="_blank">{% trans "Submit my form online with the state" %}</a></div>');
+    }
+  </script>
+ 
+{%else%}
+{%endif%}
+
+{%endblock%}
+ 
+
+{%block state_explanation%}
+<div id="state" class="explanation" style="display:none; margin-top: 20px;">
+<p>{%blocktrans%}You can complete your voter registration online with the state right now - using the application provided by Secretary of State. {%endblocktrans%}</p>
+</div>
+{%endblock%}
+

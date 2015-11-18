@@ -1,0 +1,104 @@
+{%extends "base.html"%}
+{% load i18n %} 
+{% load static from staticfiles %}
+
+{%block title%}{% trans "Register to Vote" %} | {% trans "Download Your Form" %}{%endblock title%}
+
+{% block body_class %}finish{% endblock body_class %}
+
+{%block scripts%}
+<!--[if IE]>
+  <script type="text/javascript" src="{% static 'javascripts/finish_ie.js'%}"></script>
+<![endif]-->
+<!--[if !IE]><!-->
+<script type="text/javascript" src="{% static 'javascripts/finish.js'%}"></script>
+ <!--<![endif]-->
+
+{%endblock%}
+
+{%block top_scripts%}
+{%endblock%}
+
+{%block styles%}
+{%endblock styles%}
+
+{%block content%}
+<section>
+  {% if pdfurl %}
+  <header>
+    <h2>{% trans "You're not quite done!"%}</h2>
+    <p>{% trans "You still need to sign and mail in your form."%}</p>   
+    
+  </header>
+  <div id="download" style="display:none">
+    <div class="prepend-3 span-18 append-3 last">
+      <a class="button download button-primary register" href="{{ pdfurl }}" target="_blank">{% trans "Download" %}</a>
+      <!--<p class="subtle">{% trans "By downloading and signing the form, I am/(you are) affirming that I/you meet the above/these requirements." %}</p>-->
+    </div>
+
+    <div class="prepend-3 span-18 append-3 last">
+      <p class="subtle">({% trans "We've also e-mailed you a link to retreive your form later" %})</p>
+      </div>
+  </div>
+  <div id="email-mobile" style="display:none">
+    <div class="prepend-3 span-18 append-3 last">
+      <p><strong>{% trans "Check your email inbox for a link to your form" %}</strong></p>
+    </div>
+  </div>
+  <div id="waiting">
+    <div class="prepend-3 span-18 append-3 last">
+      <a class="button button-primary waiting" style="display:block" disabled>{% trans "Preparing Form" %}<span class="ellipsis"></span></a>
+    </div>
+
+    <div class="prepend-3 span-18 append-3 last">
+      <!--<p class="subtle">({% trans "This should only take a second" %})</p>-->
+    </div>
+  </div>
+
+  {% elif error %}
+  	<header>
+  		<h2>{% trans "Something went wrong "%}:(</h2>
+  	  	<p>{{ error }}</p>
+  	</header>
+  {% endif %}
+
+</section>
+
+<section>
+  <header>
+    <h2>{% trans "Spread the word!" %}</h2>
+  </header>
+  
+  <div class="prepend-top span-24 last">
+    <div class="share">
+      <a class="button facebook" id="facebook-app-share" href="javascript:void(0);">{% trans "Post to Your Wall" %}</a>
+
+      <a class="button twitter" href="http://twitter.com/home?status={{customform.twitter_share_text|default:'Register to vote with Rock the Vote!'|urlencode}}+{%if has_partner%}https%3A%2F%2Fregister3.rockthevote.com%2F%3Fpartner%3D{{partner}}{%else%}http%3A%2F%2Frtvote.com%2FQnjESN{%endif%}" target="_blank">{% trans "Tweet This" %}</a>
+    </div>
+  </div>
+</section>
+
+{% if partner == "39" %}
+<!--tracking conversions for ldv-->
+<!-- Google Code for Rocky conversion Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1017631875;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "WxvGCO6MvVkQg6mf5QM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1017631875/?label=WxvGCO6MvVkQg6mf5QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+{%else%}
+{%endif%}
+
+{%endblock content%}
