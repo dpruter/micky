@@ -10,7 +10,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('admin', 'david@rockthevote.com'),
+    ('admin', 'admin@admin.com'),
 )
 
 MANAGERS = ADMINS
